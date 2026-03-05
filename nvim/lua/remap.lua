@@ -1,0 +1,5 @@
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+vim.keymap.set('i', 'jj', '<Esc>')
+vim.keymap.set('i', '<C-z>', 'undo')
+vim.keymap.set('n', '<C-5>', '<cmd>Explore<CR>')
+vim.keymap.set('i', '<C-4>', '<C-o>$')
