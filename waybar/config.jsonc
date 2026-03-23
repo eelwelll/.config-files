@@ -18,7 +18,8 @@
     ],
     "modules-center": [
       "image#albumCover",
-      "group/sound"
+      "group/sound",
+      "custom/soundBar"
     ],
     "modules-right": [
         "group/hardwares",
@@ -29,7 +30,7 @@
     "hyprland/workspaces": {
 	    "format": "{icon}",
 	    "format-icons": { 
-	  	"active": "",
+	  	"active": "",
 	    "default": ""}
     },
 
@@ -79,7 +80,7 @@
       "orientation": "horizontal",
       "drawer":{
         "transition-duration": 125,
-        "children-class": "hidden",
+        "children-class": "not-power",
         "transition-left-to-right": false,
         "click-to-reveal": true
       },
@@ -114,6 +115,13 @@
       },
       "modules":[
         "mpris",
+        "group/mediaControls"
+      ]
+    },
+
+    "group/mediaControls":{
+      "orientation":"horizontal",
+      "modules":[
         "custom/skipBack",
         "custom/play",
         "custom/skipForward"
@@ -133,6 +141,12 @@
     "custom/skipForward":{
       "format":"  ",
       "on-click":"/home/ethane/.config/waybar/scripts/skipForward.sh"
+    },
+
+    "custom/soundBar":{
+      "format":"{text}",
+      "exec":"/home/ethane/.config/waybar/scripts/getTimePercent.sh",
+      "interval":5
     },
 
     "mpris": {

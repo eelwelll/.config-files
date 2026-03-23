@@ -122,6 +122,7 @@ button:hover {
 #scratchpad,
 #media,
 #power-profiles-daemon,
+#soundBar,
 #mpd {
     padding: 0 5px;
     color: @word-col;
@@ -172,28 +173,24 @@ button:hover {
 
 #image.albumCover{
   border-radius:10px;
+  padding-right:0px;
   background:transparent;
 }
+/*
+ * tried to make the padding not show so it was seamless - didn;t work :(
+*/
 
 #mpris{
   padding-top:8px;
-  padding-bottom:6px;
+  padding-bottom:8px;
   padding-left:0px;
-  padding-right:5px;
+  padding-right:8px;
   background:@background-border;
   border:2px solid @background-col;
   border-top-right-radius: 10px;
   color: @word-col;
 }
 
-#play,
-#skipForward,
-#skipBackwards{
-  padding-left: 10px;
-  padding-right: 10px;
-  background:@background-col;
-  border-radius:1px;
-}
 
 #play:hover,
 #skipForward:hover,
@@ -204,6 +201,8 @@ button:hover {
   border-radius:1px;
   color:@background-col;
 }
+
+
 #window,
 #workspaces {
     margin: 0 4px;
