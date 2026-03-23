@@ -4,11 +4,23 @@
     font-size: 13px;
 }
 
+@define-color background-col rgba(24, 36, 24, 0.9);
+@define-color background-border rgba(0, 104, 0, 0.5); 
+@define-color background-border-shift rgba(10, 100, 0, 0.5); 
+@define-color word-col #b3c9b3;
+@define-color contrast-col #ff9191;
 window#waybar {
-    background-color: rgba(24, 36, 24, 0.95);
-    border: 2px solid rgba(0, 104, 0, 0.5);
-    color: #ffffff;
-    margin-top:10px;
+    background-color: @background-col;
+    border-bottom: 2px solid @background-border;
+    margin:0px;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+
+window#waybar:hover {
+    background-color: rgba(24, 36, 24, 1);
+    margin:0px;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -33,7 +45,7 @@ window#waybar.termite {
 
 window#waybar.chromium {
     background-color: #000000;
-    color: #b3c9b3;
+    color: @background-col;
     border: none;
 }
 
@@ -48,26 +60,23 @@ button {
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
+    box-shadow: inset 0 -5px @background-border;
 }
 
-/* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-    background-color: #a37800;
-}
 
 #workspaces button {
     padding: 1 5px;
     background-color: transparent;
-    color: #b3c9b3;
+    color: @word-col;
 }
 
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
 }
 
+
 #workspaces button.focused, #workspaces button.active {
-    box-shadow: inset 0 -3px rgba(0, 255, 0, 0.6);
+    box-shadow: inset 0 -3px rgba(0, 255, 0, 0.2);
 }
 
 #workspaces button.urgent {
@@ -78,7 +87,6 @@ button:hover {
     background-color: #64727D;
     box-shadow: inset 0 -3px #ffffff;
 }
-
 #clock,
 #battery,
 #cpu,
@@ -94,11 +102,49 @@ button:hover {
 #mode,
 #idle_inhibitor,
 #scratchpad,
+#media,
 #power-profiles-daemon,
 #mpd {
-    padding: 0 7px;
-    color: #b3c9b3;
+    padding: 0 5px;
+    color: @word-col;
+    border-radius: 10px;
 }
+
+#clock:hover,
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#temperature:hover,
+#backlight:hover,
+#network:hover,
+#pulseaudio:hover,
+#wireplumber:hover,
+#custom-media:hover,
+#tray:hover,
+#mode:hover,
+#idle_inhibitor:hover,
+#scratchpad:hover,
+#media:hover,
+#power-profiles-daemon:hover,
+#mpd:hover {
+    padding: 0 5px;
+    color: @word-col;
+    border-radius: 1px;
+    box-shadow: inset 0 -5px @background-border-shift;
+}
+#spacer{
+  color: #b1c9b8;
+}
+
+#mpris{
+  padding-left:5px;
+  padding-right:5px;
+  background:@background-border;
+  border:2px solid @background-border-shift;
+  color: @word-col;
+}
+
 
 #window,
 #workspaces {
@@ -119,11 +165,12 @@ button:hover {
 }
 
 #battery {
-    color: #b3c9b3;
+    color: @word-col;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
+    border-radius: 0px;
     background-color: #26A65B;
 }
 
@@ -146,19 +193,19 @@ button:hover {
 }
 
 #power-profiles-daemon {
-    padding-right: 15px;
+    padding-right: 7px;
 }
 
 #power-profiles-daemon.performance {
-    color: #b3c9b3;
+    color: @word-col;
 }
 
 #power-profiles-daemon.balanced {
-    color: #b3c9b3;
+    color: @word-col;
 }
 
 #power-profiles-daemon.power-saver {
-    color: #b3c9b3;
+    color: @word-col;
 }
 
 label:focus {
@@ -166,7 +213,7 @@ label:focus {
 }
 
 #cpu {
-    color: #b3c9b3;
+    color: @word-col; 
 }
 
 #memory {
@@ -185,11 +232,11 @@ label:focus {
 }
 
 #pulseaudio {
-    color: #b3c9b3;
+    color: @word-col;
 }
 
 #pulseaudio.muted {
-    color: #b3c9b3;
+    color: @word-col;
 }
 
 #wireplumber {
@@ -199,15 +246,15 @@ label:focus {
 #wireplumber.muted {
 }
 
-#custom-media {
+#media {
     color: #2a5c45;
     min-width: 100px;
 }
 
-#custom-media.custom-spotify {
+#media.custom-spotify {
 }
 
-#custom-media.custom-vlc {
+#media.custom-vlc {
 }
 
 #temperature {

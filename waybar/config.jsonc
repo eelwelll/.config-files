@@ -6,34 +6,50 @@
     // "width": 1280, // Waybar width
     "spacing": 2, // Gaps between modules (4px)
     // Choose the order of the modules
-    "margin-top": 1,
-    "margin-left":3,
-    "margin-right":3,
+    "margin-top": 0,
+    "margin-left":0,
+    "margin-right":0,
     "modules-left": [
         "hyprland/workspaces",
-        "power-profiles-daemon"
-
+        "custom/spacer",
+        "power-profiles-daemon",
+        "custom/spacer",
+        "backlight",
+        "mpris"
     ],
     "modules-center": [
         "clock"
     ],
     "modules-right": [
         "pulseaudio",
+        "custom/spacer",
         "network",
+        "custom/spacer",
         "cpu",
+        "custom/spacer",
         "memory",
+        "custom/spacer",
         "temperature",
-        "backlight",
-        "battery",
+        "custom/spacer",
+        "battery"
     ],
     // Modules configuration
     "hyprland/workspaces": {
-	    "format": "{name}",
-	"   format-icons": { 
+	    "format": "{icon}",
+	    "format-icons": { 
 	  	"active": "",
-	    	"default": ""
-	},
-	
+	    "default": ""}
+    },
+    "custom/spacer":{
+      "format":"|"
+    },
+
+    "mpris": {
+      "max-length":60,
+      "format": "{player_icon} {title} - {artist}",
+      "player-icons": {
+        "default": "🎵"
+    }
     },
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
@@ -86,6 +102,7 @@
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
         // }
     },
+   
     "clock": {
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
@@ -119,8 +136,8 @@
         },
         "format": "{capacity}% {icon}",
         "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
+        "format-charging": "{capacity}%",
+        "format-plugged": "{capacity}%",
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
@@ -152,7 +169,7 @@
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{volume}% {icon}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% ",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
         "format-source": "{volume}% ",
@@ -168,18 +185,7 @@
         },
         "on-click": "pavucontrol"
     },
-    "custom/media": {
-        "format": "{icon} {text}",
-        "return-type": "json",
-        "max-length": 40,
-        "format-icons": {
-            "spotify": "",
-            "default": "🎜"
-        },
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    },
+    
     "custom/power": {
         "format" : "⏻ ",
 		"tooltip": false,
