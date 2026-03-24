@@ -12,24 +12,19 @@
     "modules-left": [
         "hyprland/workspaces",
         "custom/spacer",
-        "power-profiles-daemon",
-        "custom/spacer",
         "backlight",
         "mpris"
     ],
     "modules-center": [
-        "clock"
+      "custom/end-left",
+      "clock",
+      "custom/end-right"
     ],
     "modules-right": [
+        "group/hardwares",
         "pulseaudio",
         "custom/spacer",
         "network",
-        "custom/spacer",
-        "cpu",
-        "custom/spacer",
-        "memory",
-        "custom/spacer",
-        "temperature",
         "custom/spacer",
         "battery"
     ],
@@ -40,12 +35,48 @@
 	  	"active": "",
 	    "default": ""}
     },
+
+    //custom modules to make it look nice :D
     "custom/spacer":{
-      "format":"|"
+      "format":"|",
+      "tooltip": false
+    },
+
+    "custom/arrow":{
+      "format":"&lt; ",
+      "tooltip": false
+    },
+
+    "custom/end-left":{
+      "format": "  ",
+      "tooltip": false
+    },
+
+    "custom/end-right":{
+      "format": "  ",
+      "tooltip": false
+    },
+    //group for hardware stuff
+    "group/hardwares":{
+      "format":"<",
+      "orientation": "horizontal",
+      "drawer":{
+        "transition-duration": 125,
+        "children-class": "hidden",
+        "transition-left-to-right": false,
+        "click-to-reveal": true
+      },
+      "modules": [
+        "custom/arrow",
+        "cpu",
+        "memory",
+        "temperature",
+        "power-profiles-daemon"
+      ]
     },
 
     "mpris": {
-      "max-length":60,
+      "max-length":40,
       "format": "{player_icon} {title} - {artist}",
       "player-icons": {
         "default": "🎵"

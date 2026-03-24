@@ -1,6 +1,5 @@
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "JetBrainsMono Nerd Font";
     font-size: 13px;
 }
 
@@ -10,8 +9,8 @@
 @define-color word-col #b3c9b3;
 @define-color contrast-col #ff9191;
 window#waybar {
-    background-color: @background-col;
-    border-bottom: 2px solid @background-border;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
     margin:0px;
     transition-property: background-color;
     transition-duration: .5s;
@@ -30,6 +29,26 @@ window#waybar.hidden {
     margin:10px;
 }
 
+.modules-center {
+  font-size: 20px;
+  font-weight: bold; 
+  padding: 2px;
+  background-color:rgba(24,36,23,1);
+}
+
+.modules-left{
+  font-size: 20px;
+  border-radius:0px;
+  border-top-right-radius: 0px;
+  background-color:rgba(24,36,23,1);
+
+}
+
+.modules-right{
+  font-size: 20px;
+  border-radius:0px;
+  background-color:rgba(24,36,23,1);
+}
 /*
 window#waybar.empty {
     background-color: transparent;
@@ -54,7 +73,6 @@ button {
     box-shadow: inset 0 -3px transparent;
     /* Avoid rounded borders under each button name */
     border: none;
-    border-radius: 0;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -66,8 +84,10 @@ button:hover {
 
 #workspaces button {
     padding: 1 5px;
-    background-color: transparent;
+    background-color: rgba(24, 36, 24, 1);
+    border-radius:0;
     color: @word-col;
+    
 }
 
 #workspaces button:hover {
@@ -107,9 +127,7 @@ button:hover {
 #mpd {
     padding: 0 5px;
     color: @word-col;
-    border-radius: 10px;
 }
-
 #clock:hover,
 #battery:hover,
 #cpu:hover,
@@ -130,11 +148,16 @@ button:hover {
 #mpd:hover {
     padding: 0 5px;
     color: @word-col;
-    border-radius: 1px;
-    box-shadow: inset 0 -5px @background-border-shift;
+    box-shadow: inset 0 -3px @background-border-shift;
 }
+
+
 #spacer{
   color: #b1c9b8;
+}
+
+#arrow{
+  color:@word-col;
 }
 
 #mpris{
@@ -192,9 +215,6 @@ button:hover {
     animation-direction: alternate;
 }
 
-#power-profiles-daemon {
-    padding-right: 7px;
-}
 
 #power-profiles-daemon.performance {
     color: @word-col;
