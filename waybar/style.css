@@ -1,28 +1,17 @@
+@import "colors.css";
+
 * {
     font-family: "JetBrainsMono Nerd Font";
     font-size: 13px;
 }
-
-@define-color background-col rgba(24, 36, 24, 0.9);
-@define-color background-border rgba(0, 104, 0, 0.5); 
-@define-color background-border-shift rgba(10, 100, 0, 0.5); 
-@define-color word-col #b3c9b3;
-@define-color contrast-col #ff9191;
 window#waybar {
     background-color: transparent;
     border-bottom: 2px solid transparent;
-    margin:0px;
+    margin:0 0 0 0;
     transition-property: background-color;
     transition-duration: .5s;
 }
 
-
-window#waybar:hover {
-    background-color: rgba(24, 36, 24, 1);
-    margin:0px;
-    transition-property: background-color;
-    transition-duration: .5s;
-}
 
 window#waybar.hidden {
     opacity: 0.2;
@@ -32,22 +21,31 @@ window#waybar.hidden {
 .modules-center {
   font-size: 20px;
   font-weight: bold; 
-  padding: 2px;
-  background-color:rgba(24,36,23,1);
+  padding: 2 7px;
+  background-color:@background-col;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 2px;
 }
 
 .modules-left{
   font-size: 20px;
   border-radius:0px;
-  border-top-right-radius: 0px;
-  background-color:rgba(24,36,23,1);
-
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color:@background-col;
+  margin-top: 2px;
+  margin-left:6px;
 }
 
 .modules-right{
   font-size: 20px;
-  border-radius:0px;
-  background-color:rgba(24,36,23,1);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 2px 0;
+  background-color:@background-col;
+  margin-top: 2px;
+  margin-right: 3px;
 }
 /*
 window#waybar.empty {
@@ -84,7 +82,7 @@ button:hover {
 
 #workspaces button {
     padding: 1 5px;
-    background-color: rgba(24, 36, 24, 1);
+    background-color: @background-col;
     border-radius:0;
     color: @word-col;
     
@@ -123,6 +121,7 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #media,
+#power,
 #power-profiles-daemon,
 #mpd {
     padding: 0 5px;
@@ -143,6 +142,7 @@ button:hover {
 #mode:hover,
 #idle_inhibitor:hover,
 #scratchpad:hover,
+#power:hover,
 #media:hover,
 #power-profiles-daemon:hover,
 #mpd:hover {
@@ -160,11 +160,19 @@ button:hover {
   color:@word-col;
 }
 
+#menu{
+  padding: 0 0;
+  border-radius: 10px;
+  margin: 1px 0 1px 0;
+  background: @background-border;
+  border: 2px solid @background-border;
+}
+
 #mpris{
   padding-left:5px;
   padding-right:5px;
   background:@background-border;
-  border:2px solid @background-border-shift;
+  border:2px solid @background-col;
   color: @word-col;
 }
 
@@ -193,7 +201,7 @@ button:hover {
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    border-radius: 0px;
+    border-radius: 10px;
     background-color: #26A65B;
 }
 

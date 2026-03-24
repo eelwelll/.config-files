@@ -10,23 +10,19 @@
     "margin-left":0,
     "margin-right":0,
     "modules-left": [
+        "custom/end-left",
         "hyprland/workspaces",
         "custom/spacer",
         "backlight",
-        "mpris"
+        "custom/end-right"
     ],
     "modules-center": [
-      "custom/end-left",
-      "clock",
-      "custom/end-right"
+      "mpris"
     ],
     "modules-right": [
         "group/hardwares",
-        "pulseaudio",
-        "custom/spacer",
-        "network",
-        "custom/spacer",
-        "battery"
+        "group/menu",
+        "custom/end-right"
     ],
     // Modules configuration
     "hyprland/workspaces": {
@@ -43,7 +39,7 @@
     },
 
     "custom/arrow":{
-      "format":"&lt; ",
+      "format":" &lt; ",
       "tooltip": false
     },
 
@@ -75,8 +71,19 @@
       ]
     },
 
+    //group for menu function stuff
+    "group/menu":{
+      "orientation": "horizontal",
+      "modules":[
+        "battery",
+        "pulseaudio",
+        "network",
+        "clock"
+      ]
+    },
+
     "mpris": {
-      "max-length":40,
+      "max-length":60,
       "format": "{player_icon} {title} - {artist}",
       "player-icons": {
         "default": "🎵"
@@ -135,8 +142,7 @@
     },
    
     "clock": {
-        // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt> ",
         "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
@@ -165,11 +171,11 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
+        "format": " {icon}",
         "format-full": "{capacity}% {icon}",
         "format-charging": "{capacity}%",
         "format-plugged": "{capacity}%",
-        "format-alt": "{time} {icon}",
+        "format-alt": "{capacity}% {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
@@ -218,7 +224,7 @@
     },
     
     "custom/power": {
-        "format" : "⏻ ",
+    "format" : "⏻ ",
 		"tooltip": false,
 		"menu": "on-click",
 		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
