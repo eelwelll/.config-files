@@ -84,7 +84,7 @@
 
     "mpris": {
       "max-length":60,
-      "format": "{player_icon} {title} - {artist}",
+      "format": "{title} - {artist}",
       "player-icons": {
         "default": "🎵"
     }
@@ -178,7 +178,7 @@
         "format-alt": "{capacity}% {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": [" ", " ", " ", " ", " "]
     },
     "battery#bat2": {
         "bat": "BAT2"
@@ -196,7 +196,7 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "",
+        "format-wifi": " ",
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",

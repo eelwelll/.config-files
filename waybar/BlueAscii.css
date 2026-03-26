@@ -3,8 +3,8 @@
     font-size: 13px;
 }
 
-@define-color background-col #01306b;
-@define-color background-border #055fa1; 
+@define-color background-col #000001;
+@define-color background-border #659ac2; 
 @define-color background-border-shift #182636; 
-@define-color word-col #b3c9b3;
+@define-color word-col #f0fcff;
 @define-color contrast-col #ff9191;

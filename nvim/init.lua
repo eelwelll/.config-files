@@ -10,9 +10,13 @@ if not vim.uv.fs_stat(lazypath) then
 end
 
 vim.opt.rtp:prepend(lazypath)
-
+vim.api.nvim_create_autocmd('TextYankPost', {
+  desc = 'Highlight when yanking (copying) text',
+  group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
+  callback = function() vim.hl.on_yank() end,
+})
 local lazy_config = require "configs.lazy"
-require("custom.highlights")
+
 -- load plugins
 require("lazy").setup({
   {
@@ -28,14 +32,7 @@ require("lazy").setup({
 -- load theme
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
-local modes = { 'n', 'i', 'v', 'x' }
 
-for _, mode in ipairs(modes) do
-    vim.keymap.set(mode, '<Up>', '<nop>')
-    vim.keymap.set(mode, '<Down>', '<nop>')
-    vim.keymap.set(mode, '<Left>', '<nop>')
-    vim.keymap.set(mode, '<Right>', '<nop>')
-end
 require "options"
 require "autocmds"
 

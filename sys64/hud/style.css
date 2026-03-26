@@ -1,0 +1,48 @@
+@import "/home/ethane/.config/waybar/colors.css";
+box{
+  background:@background-col;
+  padding-left:3px;
+  padding-bottom:1px;
+  padding-right:3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0px;
+  border: 2px solid transparent;
+  color: @background-border;
+}
+
+label{
+  color:@word-col;
+  background-color:@background-border;
+  border-bottom-right-radius:10px;
+  padding-right:5px;
+}
+
+image{
+  background-color:@background-border;
+  color:@word-col;
+  border-bottom-left-radius:10px;
+}
+
+scale {
+  padding-right:3px;
+  background-color:@background-border;
+}
+
+scale highlight{
+  background-color:@word-col;
+  border-radius:10px;
+  border: 3px solid @word-col;
+}
+
+scale trough{
+  background-color:@background-col;
+  border-radius:10px;
+  border: 0px solid @background-col;
+}
+
+scale slider{
+  background-color:transparent;
+  border: 0px solid @background-col;
+}

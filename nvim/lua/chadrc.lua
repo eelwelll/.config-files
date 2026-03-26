@@ -5,22 +5,20 @@
 ---@type ChadrcConfig
 local M = {}
 
-hl(0,"@variable",{fg = "#5fd7ff",italics = true})
-
 M.base46 = {
-	theme = "onedark",
+	theme = "falcon",
 
-	 hl_override = {
-	 	Comment = { italic = true },
-	 	["@comment"] = { italic = true },
-	 },
+	-- hl_override = {
+	-- 	Comment = { italic = true },
+	-- 	["@comment"] = { italic = true },
+	-- },
 }
 
- M.nvdash = { load_on_startup = true }
- M.ui = {
-       tabufline = {
-          lazyload = false
-      }
- }
+-- M.nvdash = { load_on_startup = true }
+-- M.ui = {
+--       tabufline = {
+--          lazyload = false
+--      }
+-- }
 
 return M
