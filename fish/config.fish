@@ -12,3 +12,4 @@ alias keyVim="vim ~/.config/nvim/lua/remap.lua" # for adding more keymaps to vim
 alias settingsVim="vim ~/.config/nvim/init.lua"
 alias intellij="nohup /home/ethane/Downloads/idea-2025.3.3/idea-IU-253.31033.145/bin/idea &" # to start intellij lol
 alias zed="~/.local/bin.zed" # for opening zed
+alias systeminfo="btop"

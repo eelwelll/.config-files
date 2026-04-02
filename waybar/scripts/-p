@@ -1,0 +1,21 @@
+--2026-04-02 01:13:08--  http://coverimage.png/
+Resolving coverimage.png (coverimage.png)... failed: Name or service not known.
+wget: unable to resolve host address ‘coverimage.png’
+--2026-04-02 01:13:08--  https://i.scdn.co/image/ab67616d0000b2737818a6e4ce8cb43266d6df0c
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving i.scdn.co (i.scdn.co)... 62.252.168.251, 62.252.168.242, 2a02:8801:105:1::3efc:a8f2, ...
+Connecting to i.scdn.co (i.scdn.co)|62.252.168.251|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 189109 (185K) [image/jpeg]
+Saving to: ‘ab67616d0000b2737818a6e4ce8cb43266d6df0c’
+
+     0K .......... .......... .......... .......... .......... 27% 2.68M 0s
+    50K .......... .......... .......... .......... .......... 54% 2.38M 0s
+   100K .......... .......... .......... .......... .......... 81% 11.9M 0s
+   150K .......... .......... .......... ....                 100% 5.45M=0.05s
+
+2026-04-02 01:13:08 (3.67 MB/s) - ‘ab67616d0000b2737818a6e4ce8cb43266d6df0c’ saved [189109/189109]
+
+FINISHED --2026-04-02 01:13:08--
+Total wall clock time: 0.2s
+Downloaded: 1 files, 185K in 0.05s (3.67 MB/s)

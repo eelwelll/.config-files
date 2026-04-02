@@ -1,0 +1,8 @@
+2026/04/02-00:26:27.277 989d Creating DB /home/ethane/.config/vesktop/sessionData/Local Storage/leveldb since it was missing.
+2026/04/02-00:26:27.284 989d Reusing MANIFEST /home/ethane/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/04/02-00:28:34.874 989d Level-0 table #5: started
+2026/04/02-00:28:34.882 989d Level-0 table #5: 123184 bytes OK
+2026/04/02-00:28:34.883 989d Delete type=0 #3
+2026/04/02-00:31:49.867 989d Level-0 table #7: started
+2026/04/02-00:31:49.873 989d Level-0 table #7: 92750 bytes OK
+2026/04/02-00:31:49.875 989d Delete type=0 #4

@@ -9,6 +9,7 @@ import sys
 import signal
 import gi
 import json
+import subprocess
 import os
 from typing import List
 
@@ -66,20 +67,21 @@ class PlayerManager:
 
     def write_output(self, text, player):
         logger.debug(f"Writing output: {text}")
-        if text>10:
+        if len(text)>10:
             
             output = {"text": text[:30]+"...",
                     "class": "custom-" + player.props.player_name,
-                    "alt": player.props.player_name}
+                    "alt": player.props.player_name,
+                    "coverImage": f"{os.environ['HOME']}/.config/waybar/scripts/coverimage.png"}
         else:
             output = {"text": text,
                       "class": "custom-" + player.props.player_name,
-                      "alt": player.props.player_name}
+                      "alt": player.props.player_name,
+                      "coverImage": f"{os.environ['HOME']}/.config/waybar/scripts/coverimage.png"}
 
 
         sys.stdout.write(json.dumps(output) + "\n")
         sys.stdout.flush()
-
     def clear_output(self):
         sys.stdout.write("\n")
         sys.stdout.flush()
