@@ -128,9 +128,6 @@ button:hover {
 }
 
 
-#albumCover{
-  background:transparent;
-}
 #clock:hover,
 #battery:hover,
 #cpu:hover,
@@ -173,6 +170,11 @@ button:hover {
   border: 2px solid @background-border;
 }
 
+#image.albumCover{
+  border-radius:10px;
+  background:transparent;
+}
+
 #mpris{
   padding-top:5px;
   padding-bottom:5px;
@@ -183,7 +185,6 @@ button:hover {
   border-top-right-radius: 10px;
   color: @word-col;
 }
-
 
 #window,
 #workspaces {

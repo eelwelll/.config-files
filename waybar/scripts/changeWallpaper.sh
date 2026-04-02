@@ -13,6 +13,6 @@ cp $waybar $waybar_style
 pkill hyprpaper
 hyprpaper &
 hyprctl hyprpaper wallpaper "eDP-1, $wallpaper_replace, cover"
-$(~/scripts/reload-waybar.sh)
+$($HOME/.config/waybar/scripts/reload-waybar.sh)
 
 echo $theme > ~/.config/theme/current.txt

@@ -1,0 +1,37 @@
+[2026-04-02 11:29:22.386] [info] Using configuration file /home/ethane/.config/waybar/config.jsonc
+[2026-04-02 11:29:22.393] [info] Discovered appearance 'dark'
+[2026-04-02 11:29:22.419] [info] Using CSS file /home/ethane/.config/waybar/style.css
+
+(waybar:31699): Gtk-WARNING **: 11:29:22.420: Theme parsing error: style.css:23:12: Not using units is deprecated. Assuming 'px'.
+[2026-04-02 11:29:22.421] [error] style.css:1:7Expected a valid selector
+[2026-04-02 11:30:49.502] [info] Using configuration file /home/ethane/.config/waybar/config.jsonc
+[2026-04-02 11:30:49.508] [info] Discovered appearance 'dark'
+[2026-04-02 11:30:49.536] [info] Using CSS file /home/ethane/.config/waybar/style.css
+
+(waybar:32271): Gtk-WARNING **: 11:30:49.536: Theme parsing error: style.css:23:12: Not using units is deprecated. Assuming 'px'.
+[2026-04-02 11:30:49.538] [error] style.css:1:7Expected a valid selector
+No user config found
+[2026-04-02 11:31:52.324] [info] Using configuration file /home/ethane/.config/waybar/config.jsonc
+[2026-04-02 11:31:52.329] [info] Discovered appearance 'dark'
+[2026-04-02 11:31:52.357] [info] Using CSS file /home/ethane/.config/waybar/style.css
+
+(waybar:32843): Gtk-WARNING **: 11:31:52.358: Theme parsing error: style.css:23:12: Not using units is deprecated. Assuming 'px'.
+[2026-04-02 11:31:52.359] [error] style.css:1:7Expected a valid selector
+[2026-04-02 11:32:02.706] [info] Using configuration file /home/ethane/.config/waybar/config.jsonc
+[2026-04-02 11:32:02.711] [info] Discovered appearance 'dark'
+[2026-04-02 11:32:02.739] [info] Using CSS file /home/ethane/.config/waybar/style.css
+
+(waybar:32921): Gtk-WARNING **: 11:32:02.739: Theme parsing error: style.css:23:12: Not using units is deprecated. Assuming 'px'.
+[2026-04-02 11:32:02.740] [error] style.css:1:7Expected a valid selector
+[2026-04-02 11:33:58.928] [info] Using configuration file /home/ethane/.config/waybar/config.jsonc
+[2026-04-02 11:33:58.934] [info] Discovered appearance 'dark'
+[2026-04-02 11:33:58.964] [info] Using CSS file /home/ethane/.config/waybar/style.css
+
+(waybar:33731): Gtk-WARNING **: 11:33:58.964: Theme parsing error: style.css:23:12: Not using units is deprecated. Assuming 'px'.
+[2026-04-02 11:33:58.965] [error] style.css:1:7Expected a valid selector
+[2026-04-02 11:35:19.090] [info] Using configuration file /home/ethane/.config/waybar/config.jsonc
+[2026-04-02 11:35:19.096] [info] Discovered appearance 'dark'
+[2026-04-02 11:35:19.123] [info] Using CSS file /home/ethane/.config/waybar/style.css
+
+(waybar:34014): Gtk-WARNING **: 11:35:19.123: Theme parsing error: style.css:23:12: Not using units is deprecated. Assuming 'px'.
+[2026-04-02 11:35:19.124] [error] style.css:1:7Expected a valid selector

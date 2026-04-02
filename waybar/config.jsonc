@@ -48,9 +48,8 @@
     "image#albumCover":{
       "path":"/home/ethane/.config/waybar/scripts/coverimage.png",
       "size":28,
-      "interval": 5,
       "exec":"/home/ethane/.config/waybar/scripts/mediaArt.sh",
-      "on-click":"/home/ethane/.config/waybar/scripts/mediaArt.sh"
+      "interval":5
     },
 
     //custom modules to make it look nice :D
