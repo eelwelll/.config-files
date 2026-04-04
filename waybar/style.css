@@ -176,8 +176,8 @@ button:hover {
 }
 
 #mpris{
-  padding-top:5px;
-  padding-bottom:5px;
+  padding-top:8px;
+  padding-bottom:6px;
   padding-left:0px;
   padding-right:5px;
   background:@background-border;
@@ -186,6 +186,24 @@ button:hover {
   color: @word-col;
 }
 
+#play,
+#skipForward,
+#skipBackwards{
+  padding-left: 10px;
+  padding-right: 10px;
+  background:@background-col;
+  border-radius:1px;
+}
+
+#play:hover,
+#skipForward:hover,
+#skipBackwards:hover{
+  padding-left: 10px;
+  padding-right: 10px;
+  background:@background-col;
+  border-radius:1px;
+  color:@background-col;
+}
 #window,
 #workspaces {
     margin: 0 4px;

@@ -18,7 +18,7 @@
     ],
     "modules-center": [
       "image#albumCover",
-      "mpris"
+      "group/sound"
     ],
     "modules-right": [
         "group/hardwares",
@@ -47,9 +47,10 @@
 
     "image#albumCover":{
       "path":"/home/ethane/.config/waybar/scripts/coverimage.png",
-      "size":28,
+      "size":32,
+      "interval": 4,
       "exec":"/home/ethane/.config/waybar/scripts/mediaArt.sh",
-      "interval":5
+      "on-click":"/home/ethane/.config/waybar/scripts/mediaArt.sh"
     },
 
     //custom modules to make it look nice :D
@@ -85,9 +86,10 @@
       "modules": [
         "custom/arrow",
         "cpu",
+        "custom/spacer",
         "memory",
-        "temperature",
-        "power-profiles-daemon"
+        "custom/spacer",
+        "temperature"
       ]
     },
 
@@ -98,10 +100,40 @@
         "battery",
         "pulseaudio",
         "network",
+        "custom/spacer",
         "clock"
       ]
     },
 
+    "group/sound":{
+      "orientation":"horizontal",
+      "drawer":{
+        "transition-duration":500,
+        "click-to-reveal":false,
+        "transition-left-to-right":true
+      },
+      "modules":[
+        "mpris",
+        "custom/skipBack",
+        "custom/play",
+        "custom/skipForward"
+      ]
+    },
+
+    "custom/play":{
+      "format":"  ",
+      "on-click":"/home/ethane/.config/waybar/scripts/playPause.sh"
+    },
+
+    "custom/skipBack":{
+      "format":"  ",
+      "on-click":"/home/ethane/.config/waybar/scripts/skipBack.sh"
+    },
+
+    "custom/skipForward":{
+      "format":"  ",
+      "on-click":"/home/ethane/.config/waybar/scripts/skipForward.sh"
+    },
 
     "mpris": {
       "max-length":60,
@@ -167,18 +199,18 @@
         "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
-        "format": "{usage}% ",
+        "format": "{usage}%  ",
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}%  "
     },
     "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "critical-threshold": 80,
         // "format-critical": "{temperatureC}°C {icon}",
-        "format": "{temperatureC}°C {icon}",
+        "format": "{temperatureC}°C {icon} ",
         "format-icons": [ ""]
     },
     "backlight": {
@@ -229,7 +261,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": ["", "", " "]
         },
         "on-click": "pavucontrol"
     },
