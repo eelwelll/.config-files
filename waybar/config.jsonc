@@ -137,7 +137,7 @@
 
     "mpris": {
       "max-length":60,
-      "format": "{title} - {artist}",
+      "format": " {title} - {artist}",
       "player-icons": {
         "default": "🎵"
     }
