@@ -18,6 +18,7 @@
     ],
     "modules-center": [
       "image#albumCover",
+      "custom/albumCover",
       "group/sound",
       "custom/soundBar"
     ],
@@ -49,9 +50,16 @@
     "image#albumCover":{
       "path":"/home/ethane/.config/waybar/scripts/coverimage.png",
       "size":32,
-      "interval": 4,
       "exec":"/home/ethane/.config/waybar/scripts/mediaArt.sh",
-      "on-click":"/home/ethane/.config/waybar/scripts/mediaArt.sh"
+      "interval": 3
+    },
+
+    "custom/albumCover":{
+      "exec":"/home/ethane/.config/waybar/scripts/mediaArt.sh",
+      "interval": 3,
+      "return-type": "json",
+      "format": "",
+      "tooltip": false
     },
 
     //custom modules to make it look nice :D
