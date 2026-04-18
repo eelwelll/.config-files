@@ -19,8 +19,7 @@
     "modules-center": [
       "image#albumCover",
       "custom/albumCover",
-      "group/sound",
-      "custom/soundBar"
+      "group/sound"
     ],
     "modules-right": [
         "group/hardwares",
@@ -122,8 +121,16 @@
         "transition-left-to-right":true
       },
       "modules":[
-        "mpris",
+        "group/ultrasounding",
         "group/mediaControls"
+      ]
+    },
+
+    "group/ultrasounding":{
+      "orientation":"vertical",
+      "modules":[
+        "mpris",
+        "custom/soundBar"
       ]
     },
 
@@ -154,10 +161,11 @@
     "custom/soundBar":{
       "format":"{text}",
       "exec":"/home/ethane/.config/waybar/scripts/getTimePercent.sh",
-      "interval":5
+      "interval":3
     },
 
     "mpris": {
+      "interval":3,
       "max-length":60,
       "format": " {title} - {artist}",
       "player-icons": {
