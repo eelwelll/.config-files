@@ -1,6 +1,15 @@
 #!/bin/bash
 
-lengths=("﹏         " "﹏﹏        " "﹏﹏﹏       " "﹏﹏﹏﹏      " "﹏﹏﹏﹏﹏     " "﹏﹏﹏﹏﹏﹏    " "﹏﹏﹏﹏﹏﹏﹏  " "﹏﹏﹏﹏﹏﹏﹏﹏  " "﹏﹏﹏﹏﹏﹏﹏﹏﹏ " "﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏")
+lengths=("﹏" 
+         "﹏﹏" 
+         "﹏﹏﹏" 
+         "﹏﹏﹏﹏"
+         "﹏﹏﹏﹏﹏"
+         "﹏﹏﹏﹏﹏﹏"
+         "﹏﹏﹏﹏﹏﹏﹏"
+         "﹏﹏﹏﹏﹏﹏﹏﹏"
+         "﹏﹏﹏﹏﹏﹏﹏﹏﹏"
+         "﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏")
 duration=$(playerctl position --format "{{ duration(position) }}")
 length=$(playerctl metadata --format "{{duration(mpris:length)}}")
 minD=${duration%:*}
