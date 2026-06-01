@@ -1,0 +1,10 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+}
+
+@define-color background-col #cccccc;
+@define-color background-border #db9c63; 
+@define-color background-border-shift #182636; 
+@define-color word-col #404237;
+@define-color contrast-col #ff9191;

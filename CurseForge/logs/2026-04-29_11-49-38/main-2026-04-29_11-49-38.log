@@ -1,0 +1,462 @@
+[2026-04-29 11:49:38.284] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com.
+[2026-04-29 11:49:38.286] [info]  [ConfigurationServiceImpl] Current env: production.
+[2026-04-29 11:49:38.295] [info]  [BackgroundController] App version: 1.302.0.32990.
+[2026-04-29 11:49:38.295] [info]  [BackgroundController] OS: linux.
+[2026-04-29 11:49:38.298] [info]  [BackgroundController] OS version: 6.19.14-arch1-1.
+[2026-04-29 11:49:38.298] [info]  [BackgroundController] App startup args: /opt/curseforge/curseforge.
+[2026-04-29 11:49:38.333] [error] [BackgroundController] Failed subscribing app protocol.
+[2026-04-29 11:49:38.519] [info]  [BackgroundController] Electron App Ready. Continuing Initialization....
+[2026-04-29 11:49:38.524] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ....
+[2026-04-29 11:49:38.752] [info]  [AppUpdateServiceImpl] Checking if app has an update which is available locally..
+[2026-04-29 11:49:38.753] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.302.0-32990.
+[2026-04-29 11:49:38.898] [info]  [AppUpdateStateChangedEventHandler] App update state changed: [object Object].
+[2026-04-29 11:49:38.901] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2026-04-29 11:49:39.281] [info]  [SessionStartedEventHandler] App session started.
+[2026-04-29 11:49:39.285] [info]  [AutoUpdateServiceImpl] Starting auto update service.
+[2026-04-29 11:49:39.286] [info]  [AutoUpdateServiceImpl] Auto updater is disabled by configuration.
+[2026-04-29 11:49:39.286] [info]  [LoginService] Validating login status.
+[2026-04-29 11:49:39.286] [info]  [SessionInfoRepositoryImpl] Loading login tokens from storage.
+[2026-04-29 11:49:39.286] [info]  [SessionInfoRepositoryImpl] Missing mandatory tokens. Clearing storage.
+[2026-04-29 11:49:39.286] [info]  [SessionInfoRepositoryImpl] Clearing tokens from storage.
+[2026-04-29 11:49:39.289] [info]  [LoginService] No login tokens found..
+[2026-04-29 11:49:39.289] [info]  [SessionInfoRepositoryImpl] Clearing tokens from storage.
+[2026-04-29 11:49:39.292] [info]  [LoginService] Notifying logged out status.
+[2026-04-29 11:49:39.292] [info]  [SessionInfoRepositoryImpl] Clearing tokens from storage.
+[2026-04-29 11:49:39.295] [error] [LoggedOutEventHandler] Failed to update client session info. Error: Radium API is not ready
+[2026-04-29 11:49:39.296] [info]  [GameAuthUsersChangedEventHandler] Minecraft Users info loaded.
+[2026-04-29 11:49:39.297] [info]  [LoggedOutEventHandler] User is logged out.
+[2026-04-29 11:49:39.297] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ....
+[2026-04-29 11:49:39.301] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2026-04-29 11:49:39.302] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.302.0-32990.
+[2026-04-29 11:49:39.334] [info]  [AppUpdateStateChangedEventHandler] App update state changed: [object Object].
+[2026-04-29 11:49:39.334] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2026-04-29 11:49:39.335] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2026-04-29 11:49:39.443] [error] [SettingsService] Failed to get app content path: Error: Failed to get app content path.
+[2026-04-29 11:49:39.452] [info]  [PluginCommunication] Connecting to Mods Agent.
+[2026-04-29 11:49:39.453] [info]  [PluginProcessHost] Starting Mods Agent with ports range 50725-50745.
+[2026-04-29 11:49:39.453] [info]  [PluginProcessHost] Launching Mods Agent process /opt/curseforge/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=50725,--to-port=50745,--pid=74262,--appDataPath=/home/ethane/.config/CurseForge,--api-key=12e27044-1432-4262-bd0c-f8cee9c66426,--clientId=Overwolf.
+[2026-04-29 11:49:39.566] [info]  [PluginProcessHost] Agent stdout: Starting CurseForge Agent Host.
+[2026-04-29 11:49:39.843] [info]  [PluginProcessHost] Agent stdout: Agent Data path is /home/ethane/.config/CurseForge/agent.
+[2026-04-29 11:49:39.844] [info]  [PluginProcessHost] Agent stdout: Agent Log path is /home/ethane/.config/CurseForge/agent/logs.
+[2026-04-29 11:49:40.966] [info]  [PluginProcessHost] Agent stdout: 04/29/2026 11:49:40 [Info] Server started at ws://127.0.0.1:50725/CurseForge (actual port 50725) .
+[2026-04-29 11:49:40.966] [info]  [PluginProcessHost] Mods Agent started. pid: 74376, port: 50725.
+[2026-04-29 11:49:40.966] [info]  [RadiumWebsocketClient] Connecting to Mods Agent CurseForge on ports range 50725-50725.
+[2026-04-29 11:49:40.976] [info]  [PluginProcessHost] Agent stdout: Mods Agent server started on port 50725.
+[2026-04-29 11:49:41.068] [info]  [RadiumWebsocketClient] Connected to mods agent.
+[2026-04-29 11:49:41.069] [info]  [RadiumWebsocketClient] Connected to Mods Agent on port 50725.
+[2026-04-29 11:49:42.247] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false.
+[2026-04-29 11:49:42.287] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false.
+[2026-04-29 11:49:42.295] [info]  [CoreServiceImpl] Mods agent was initialized successfully.
+[2026-04-29 11:49:42.297] [info]  [AppConnectivityService] Reporting app connectivity.
+[2026-04-29 11:49:42.969] [info]  [AnalyticsService] Sent a Grafana event to https://tracking.overwolf.com/tracking/InsertStats?Stats=true.
+[2026-04-29 11:49:43.003] [info]  [ElectronApplication] CRN Api is not available.
+[2026-04-29 11:49:43.007] [info]  [AppLaunchService] No install params to launch and install project.
+[2026-04-29 11:49:51.101] [info]  [ReleaseNotesApiImpl] Fetching /1.302.0.32990/release-notes/1 ....
+[2026-04-29 11:49:54.292] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2026-04-29 11:49:54.296] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432}.
+[2026-04-29 11:49:54.303] [info]  [MeasurementAppServiceImpl] starting measurement game-dau.
+[2026-04-29 11:49:54.475] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2026-04-29 11:49:54.529] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info.
+[2026-04-29 11:49:54.622] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft User Info.
+[2026-04-29 11:50:04.343] [info]  [AnalyticsService] trackDailyUnique is unique: true.
+[2026-04-29 11:50:09.864] [info]  [MinecraftSettingsChangedEventHandler] Minecraft settings changed: {"minecraftRoot":"/home/ethane/Documents/curseforge/minecraft","preferredRelease":0,"useDesktopResolution":false,"resolutionWidth":1024,"resolutionHeight":768,"launcherVisibility":0,"launcherType":0,"gameLaunchMethod":0,"javaVersionsPaths":{"java8":""},"maxMemoryAllocation":4096,"useRecommendedMemoryAllocation":true,"additionalJavaArguments":null,"profileBackups":0,"enableModpackDefaultSettings":false,"minecraftModpackDefaultOptions":{"autoJump":true,"fullscreen":false,"bobView":true,"invertMouse":false,"mouseSensitivity":100,"gamma":50,"renderDistance":12,"fov":70,"guiScale":0,"masterVolume":100,"musicVolume":100,"jukeboxVolume":100,"weatherVolume":100,"blockVolume":100,"hostileVolume":100,"neutralVolume":100,"playerVolume":100,"ambientVolume":100,"voiceVolume":100,"sneakKeyBind":"ShiftLeft","sprintKeyBind":"ControlLeft"},"gameDashboardDisplay":null,"showGameDashboard":false}.
+[2026-04-29 11:50:09.879] [info]  [MinecraftSettingsChangedEventHandler] Minecraft settings changed: {"minecraftRoot":"/home/ethane/Documents/curseforge/minecraft","preferredRelease":0,"useDesktopResolution":false,"resolutionWidth":1024,"resolutionHeight":768,"launcherVisibility":0,"gameLaunchMethod":0,"javaVersionsPaths":{"java8":""},"maxMemoryAllocation":4096,"useRecommendedMemoryAllocation":true,"additionalJavaArguments":null,"profileBackups":0,"enableModpackDefaultSettings":false,"minecraftModpackDefaultOptions":{"autoJump":true,"fullscreen":false,"bobView":true,"invertMouse":false,"mouseSensitivity":100,"gamma":50,"renderDistance":12,"fov":70,"guiScale":0,"masterVolume":100,"musicVolume":100,"jukeboxVolume":100,"weatherVolume":100,"blockVolume":100,"hostileVolume":100,"neutralVolume":100,"playerVolume":100,"ambientVolume":100,"voiceVolume":100,"sneakKeyBind":"ShiftLeft","sprintKeyBind":"ControlLeft"},"gameDashboardDisplay":null,"showGameDashboard":false}.
+[2026-04-29 11:50:09.919] [info]  [MinecraftInstallationServiceImpl] Changing location to: /home/ethane/Documents/curseforge/minecraft.
+[2026-04-29 11:50:19.978] [info]  [ModpacksAppServiceImpl] Import modpack from /home/ethane/Downloads/create but better v2.zip.
+[2026-04-29 11:50:20.092] [info]  [ModpackDetectedEventHandler] Modpack bdfd8e9e-3950-4fd7-a839-940c0541cd74 detected.
+[2026-04-29 11:50:20.114] [info]  [GameInstanceChangedEventHandler] Game instance changed: bdfd8e9e-3950-4fd7-a839-940c0541cd74 - ["AddedToDatabase"].
+[2026-04-29 11:50:20.169] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2026-04-29 11:50:20.170] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2026-04-29 11:50:20.172] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2026-04-29 11:50:20.174] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2026-04-29 11:50:20.175] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2026-04-29 11:50:20.808] [info]  [GameInstanceChangedEventHandler] Game instance changed: bdfd8e9e-3950-4fd7-a839-940c0541cd74 - ["Saved"].
+[2026-04-29 11:50:20.811] [info]  [ModpackChangedEventHandler] Modpack bdfd8e9e-3950-4fd7-a839-940c0541cd74 changed.
+[2026-04-29 11:51:11.915] [info]  [ProjectInstalledEventHandler] Project 1253573 - Mechanicals Lib installed to create but better v2 instance.
+[2026-04-29 11:51:11.917] [info]  [ProjectInstanceChangedEventHandler] Project instance 1253573 - Mechanicals Lib changed.
+[2026-04-29 11:51:11.918] [info]  [ProjectInstanceChangedEventHandler] Project instance 1253573 - Mechanicals Lib changed.
+[2026-04-29 11:51:12.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 821828 - Create Mechanical Spawner changed.
+[2026-04-29 11:51:12.585] [info]  [ProjectInstanceChangedEventHandler] Project instance 821828 - Create Mechanical Spawner changed.
+[2026-04-29 11:51:12.585] [info]  [ProjectInstalledEventHandler] Project 821828 - Create Mechanical Spawner installed to create but better v2 instance.
+[2026-04-29 11:51:18.137] [info]  [ProjectInstanceChangedEventHandler] Project instance 531761 - Balm changed.
+[2026-04-29 11:51:18.139] [info]  [ProjectInstanceChangedEventHandler] Project instance 531761 - Balm changed.
+[2026-04-29 11:51:18.143] [info]  [ProjectInstalledEventHandler] Project 531761 - Balm installed to create but better v2 instance.
+[2026-04-29 11:51:18.699] [info]  [ProjectInstanceChangedEventHandler] Project instance 908741 - Embeddium changed.
+[2026-04-29 11:51:18.701] [info]  [ProjectInstanceChangedEventHandler] Project instance 908741 - Embeddium changed.
+[2026-04-29 11:51:18.706] [info]  [ProjectInstanceChangedEventHandler] Project instance 908741 - Embeddium changed.
+[2026-04-29 11:51:18.707] [info]  [ProjectInstalledEventHandler] Project 908741 - Embeddium installed to create but better v2 instance.
+[2026-04-29 11:51:18.710] [info]  [ProjectInstanceChangedEventHandler] Project instance 908741 - Embeddium changed.
+[2026-04-29 11:51:21.388] [info]  [ProjectInstanceChangedEventHandler] Project instance 1414670 - Steam 'n' Rails Neoforge changed.
+[2026-04-29 11:51:21.390] [info]  [ProjectInstanceChangedEventHandler] Project instance 1414670 - Steam 'n' Rails Neoforge changed.
+[2026-04-29 11:51:21.394] [info]  [ProjectInstalledEventHandler] Project 1414670 - Steam 'n' Rails Neoforge installed to create but better v2 instance.
+[2026-04-29 11:51:22.232] [info]  [ProjectInstanceChangedEventHandler] Project instance 422301 - Sophisticated Backpacks changed.
+[2026-04-29 11:51:22.235] [info]  [ProjectInstanceChangedEventHandler] Project instance 422301 - Sophisticated Backpacks changed.
+[2026-04-29 11:51:22.239] [info]  [ProjectInstanceChangedEventHandler] Project instance 422301 - Sophisticated Backpacks changed.
+[2026-04-29 11:51:22.240] [info]  [ProjectInstalledEventHandler] Project 422301 - Sophisticated Backpacks installed to create but better v2 instance.
+[2026-04-29 11:51:27.802] [info]  [ProjectInstanceChangedEventHandler] Project instance 1312371 - Sable changed.
+[2026-04-29 11:51:27.806] [info]  [ProjectInstanceChangedEventHandler] Project instance 1312371 - Sable changed.
+[2026-04-29 11:51:27.806] [info]  [ProjectInstalledEventHandler] Project 1312371 - Sable installed to create but better v2 instance.
+[2026-04-29 11:51:27.808] [info]  [ProjectInstanceChangedEventHandler] Project instance 1312371 - Sable changed.
+[2026-04-29 11:51:29.445] [info]  [ProjectInstanceChangedEventHandler] Project instance 351264 - Kotlin for Forge changed.
+[2026-04-29 11:51:29.447] [info]  [ProjectInstanceChangedEventHandler] Project instance 351264 - Kotlin for Forge changed.
+[2026-04-29 11:51:29.448] [info]  [ProjectInstalledEventHandler] Project 351264 - Kotlin for Forge installed to create but better v2 instance.
+[2026-04-29 11:51:29.941] [info]  [ProjectInstanceChangedEventHandler] Project instance 1216624 - Create: Dragons Plus changed.
+[2026-04-29 11:51:29.944] [info]  [ProjectInstanceChangedEventHandler] Project instance 1216624 - Create: Dragons Plus changed.
+[2026-04-29 11:51:29.947] [info]  [ProjectInstalledEventHandler] Project 1216624 - Create: Dragons Plus installed to create but better v2 instance.
+[2026-04-29 11:51:30.316] [info]  [ProjectInstanceChangedEventHandler] Project instance 978125 - Create: Ultimate Factory changed.
+[2026-04-29 11:51:30.319] [info]  [ProjectInstanceChangedEventHandler] Project instance 978125 - Create: Ultimate Factory changed.
+[2026-04-29 11:51:30.322] [info]  [ProjectInstalledEventHandler] Project 978125 - Create: Ultimate Factory installed to create but better v2 instance.
+[2026-04-29 11:51:30.684] [info]  [ProjectInstanceChangedEventHandler] Project instance 940057 - TerraBlender (NeoForge) changed.
+[2026-04-29 11:51:30.686] [info]  [ProjectInstanceChangedEventHandler] Project instance 940057 - TerraBlender (NeoForge) changed.
+[2026-04-29 11:51:30.687] [info]  [ProjectInstalledEventHandler] Project 940057 - TerraBlender (NeoForge) installed to create but better v2 instance.
+[2026-04-29 11:51:31.121] [info]  [ProjectInstanceChangedEventHandler] Project instance 1501231 - Create Utilities (Unofficial Port) changed.
+[2026-04-29 11:51:31.124] [info]  [ProjectInstanceChangedEventHandler] Project instance 1501231 - Create Utilities (Unofficial Port) changed.
+[2026-04-29 11:51:31.127] [info]  [ProjectInstalledEventHandler] Project 1501231 - Create Utilities (Unofficial Port) installed to create but better v2 instance.
+[2026-04-29 11:51:31.590] [info]  [ProjectInstanceChangedEventHandler] Project instance 688768 - Create: Enchantment Industry changed.
+[2026-04-29 11:51:31.591] [info]  [ProjectInstalledEventHandler] Project 688768 - Create: Enchantment Industry installed to create but better v2 instance.
+[2026-04-29 11:51:31.593] [info]  [ProjectInstanceChangedEventHandler] Project instance 688768 - Create: Enchantment Industry changed.
+[2026-04-29 11:51:32.423] [info]  [ProjectInstanceChangedEventHandler] Project instance 455508 - Iris Shaders changed.
+[2026-04-29 11:51:32.425] [info]  [ProjectInstanceChangedEventHandler] Project instance 455508 - Iris Shaders changed.
+[2026-04-29 11:51:32.428] [info]  [ProjectInstalledEventHandler] Project 455508 - Iris Shaders installed to create but better v2 instance.
+[2026-04-29 11:51:32.997] [info]  [ProjectInstanceChangedEventHandler] Project instance 317780 - Xaero's World Map changed.
+[2026-04-29 11:51:33.000] [info]  [ProjectInstanceChangedEventHandler] Project instance 317780 - Xaero's World Map changed.
+[2026-04-29 11:51:33.000] [info]  [ProjectInstalledEventHandler] Project 317780 - Xaero's World Map installed to create but better v2 instance.
+[2026-04-29 11:51:40.531] [info]  [ProjectInstanceChangedEventHandler] Project instance 676721 - Create Aeronautics changed.
+[2026-04-29 11:51:40.534] [info]  [ProjectInstanceChangedEventHandler] Project instance 676721 - Create Aeronautics changed.
+[2026-04-29 11:51:40.534] [info]  [ProjectInstalledEventHandler] Project 676721 - Create Aeronautics installed to create but better v2 instance.
+[2026-04-29 11:51:40.536] [info]  [ProjectInstanceChangedEventHandler] Project instance 676721 - Create Aeronautics changed.
+[2026-04-29 11:51:46.061] [info]  [ProjectInstanceChangedEventHandler] Project instance 453925 - Macaw's Fences and Walls changed.
+[2026-04-29 11:51:46.067] [info]  [ProjectInstanceChangedEventHandler] Project instance 453925 - Macaw's Fences and Walls changed.
+[2026-04-29 11:51:46.068] [info]  [ProjectInstalledEventHandler] Project 453925 - Macaw's Fences and Walls installed to create but better v2 instance.
+[2026-04-29 11:51:46.630] [info]  [ProjectInstanceChangedEventHandler] Project instance 342584 - Collective changed.
+[2026-04-29 11:51:46.637] [info]  [ProjectInstanceChangedEventHandler] Project instance 342584 - Collective changed.
+[2026-04-29 11:51:46.638] [info]  [ProjectInstalledEventHandler] Project 342584 - Collective installed to create but better v2 instance.
+[2026-04-29 11:51:46.996] [info]  [ProjectInstanceChangedEventHandler] Project instance 1470821 - AnvilCore 🔨 changed.
+[2026-04-29 11:51:46.997] [info]  [ProjectInstanceChangedEventHandler] Project instance 1470821 - AnvilCore 🔨 changed.
+[2026-04-29 11:51:46.999] [info]  [ProjectInstalledEventHandler] Project 1470821 - AnvilCore 🔨 installed to create but better v2 instance.
+[2026-04-29 11:51:52.087] [info]  [ProjectInstanceChangedEventHandler] Project instance 220318 - Biomes O' Plenty changed.
+[2026-04-29 11:51:52.090] [info]  [ProjectInstanceChangedEventHandler] Project instance 220318 - Biomes O' Plenty changed.
+[2026-04-29 11:51:52.092] [info]  [ProjectInstalledEventHandler] Project 220318 - Biomes O' Plenty installed to create but better v2 instance.
+[2026-04-29 11:51:52.705] [info]  [ProjectInstanceChangedEventHandler] Project instance 388364 - Easier Sleeping changed.
+[2026-04-29 11:51:52.710] [info]  [ProjectInstanceChangedEventHandler] Project instance 388364 - Easier Sleeping changed.
+[2026-04-29 11:51:52.711] [info]  [ProjectInstalledEventHandler] Project 388364 - Easier Sleeping installed to create but better v2 instance.
+[2026-04-29 11:51:53.321] [info]  [ProjectInstanceChangedEventHandler] Project instance 466792 - Create Stuff 'N Additions changed.
+[2026-04-29 11:51:53.325] [info]  [ProjectInstanceChangedEventHandler] Project instance 466792 - Create Stuff 'N Additions changed.
+[2026-04-29 11:51:53.326] [info]  [ProjectInstalledEventHandler] Project 466792 - Create Stuff 'N Additions installed to create but better v2 instance.
+[2026-04-29 11:51:54.059] [info]  [ProjectInstanceChangedEventHandler] Project instance 394468 - Sodium changed.
+[2026-04-29 11:51:54.062] [info]  [ProjectInstanceChangedEventHandler] Project instance 394468 - Sodium changed.
+[2026-04-29 11:51:54.065] [info]  [ProjectInstalledEventHandler] Project 394468 - Sodium installed to create but better v2 instance.
+[2026-04-29 11:51:54.385] [info]  [ProjectInstanceChangedEventHandler] Project instance 1351997 - Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat) changed.
+[2026-04-29 11:51:54.388] [info]  [ProjectInstanceChangedEventHandler] Project instance 1351997 - Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat) changed.
+[2026-04-29 11:51:54.388] [info]  [ProjectInstalledEventHandler] Project 1351997 - Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat) installed to create but better v2 instance.
+[2026-04-29 11:51:55.568] [info]  [ProjectInstanceChangedEventHandler] Project instance 359540 - Macaw's Furniture changed.
+[2026-04-29 11:51:55.570] [info]  [ProjectInstanceChangedEventHandler] Project instance 359540 - Macaw's Furniture changed.
+[2026-04-29 11:51:55.570] [info]  [ProjectInstalledEventHandler] Project 359540 - Macaw's Furniture installed to create but better v2 instance.
+[2026-04-29 11:51:55.919] [info]  [ProjectInstanceChangedEventHandler] Project instance 367178 - Tree Harvester changed.
+[2026-04-29 11:51:55.922] [info]  [ProjectInstanceChangedEventHandler] Project instance 367178 - Tree Harvester changed.
+[2026-04-29 11:51:55.922] [info]  [ProjectInstalledEventHandler] Project 367178 - Tree Harvester installed to create but better v2 instance.
+[2026-04-29 11:51:56.572] [info]  [ProjectInstanceChangedEventHandler] Project instance 610844 - Bliss Shaders changed.
+[2026-04-29 11:51:56.574] [info]  [ProjectInstanceChangedEventHandler] Project instance 610844 - Bliss Shaders changed.
+[2026-04-29 11:51:56.575] [info]  [ProjectInstalledEventHandler] Project 610844 - Bliss Shaders installed to create but better v2 instance.
+[2026-04-29 11:51:57.446] [info]  [ProjectInstanceChangedEventHandler] Project instance 398521 - Farmer's Delight changed.
+[2026-04-29 11:51:57.447] [info]  [ProjectInstalledEventHandler] Project 398521 - Farmer's Delight installed to create but better v2 instance.
+[2026-04-29 11:51:57.451] [info]  [ProjectInstanceChangedEventHandler] Project instance 398521 - Farmer's Delight changed.
+[2026-04-29 11:51:57.454] [info]  [ProjectInstanceChangedEventHandler] Project instance 398521 - Farmer's Delight changed.
+[2026-04-29 11:52:01.414] [info]  [ProjectInstanceChangedEventHandler] Project instance 328085 - Create changed.
+[2026-04-29 11:52:01.415] [info]  [ProjectInstanceChangedEventHandler] Project instance 328085 - Create changed.
+[2026-04-29 11:52:01.417] [info]  [ProjectInstalledEventHandler] Project 328085 - Create installed to create but better v2 instance.
+[2026-04-29 11:52:01.736] [info]  [ProjectInstanceChangedEventHandler] Project instance 887484 - Xaero's Minimap & World Map - Waystones Compatibility [Forge & NeoForge] changed.
+[2026-04-29 11:52:01.737] [info]  [ProjectInstanceChangedEventHandler] Project instance 887484 - Xaero's Minimap & World Map - Waystones Compatibility [Forge & NeoForge] changed.
+[2026-04-29 11:52:01.738] [info]  [ProjectInstalledEventHandler] Project 887484 - Xaero's Minimap & World Map - Waystones Compatibility [Forge & NeoForge] installed to create but better v2 instance.
+[2026-04-29 11:52:02.173] [info]  [ProjectInstanceChangedEventHandler] Project instance 502372 - Macaw's Lights and Lamps changed.
+[2026-04-29 11:52:02.175] [info]  [ProjectInstanceChangedEventHandler] Project instance 502372 - Macaw's Lights and Lamps changed.
+[2026-04-29 11:52:02.177] [info]  [ProjectInstalledEventHandler] Project 502372 - Macaw's Lights and Lamps installed to create but better v2 instance.
+[2026-04-29 11:52:15.164] [info]  [ProjectInstanceChangedEventHandler] Project instance 546670 - Essential Mod changed.
+[2026-04-29 11:52:15.165] [info]  [ProjectInstanceChangedEventHandler] Project instance 546670 - Essential Mod changed.
+[2026-04-29 11:52:15.166] [info]  [ProjectInstalledEventHandler] Project 546670 - Essential Mod installed to create but better v2 instance.
+[2026-04-29 11:52:15.707] [info]  [ProjectInstanceChangedEventHandler] Project instance 245755 - Waystones changed.
+[2026-04-29 11:52:15.708] [info]  [ProjectInstanceChangedEventHandler] Project instance 245755 - Waystones changed.
+[2026-04-29 11:52:15.710] [info]  [ProjectInstalledEventHandler] Project 245755 - Waystones installed to create but better v2 instance.
+[2026-04-29 11:52:16.156] [info]  [ProjectInstanceChangedEventHandler] Project instance 659674 - Create Slice & Dice changed.
+[2026-04-29 11:52:16.158] [info]  [ProjectInstalledEventHandler] Project 659674 - Create Slice & Dice installed to create but better v2 instance.
+[2026-04-29 11:52:16.161] [info]  [ProjectInstanceChangedEventHandler] Project instance 659674 - Create Slice & Dice changed.
+[2026-04-29 11:52:16.497] [info]  [ProjectInstanceChangedEventHandler] Project instance 955399 - GlitchCore changed.
+[2026-04-29 11:52:16.499] [info]  [ProjectInstanceChangedEventHandler] Project instance 955399 - GlitchCore changed.
+[2026-04-29 11:52:16.501] [info]  [ProjectInstalledEventHandler] Project 955399 - GlitchCore installed to create but better v2 instance.
+[2026-04-29 11:52:18.189] [info]  [ProjectInstanceChangedEventHandler] Project instance 533382 - Macaw's Biomes O' Plenty changed.
+[2026-04-29 11:52:18.190] [info]  [ProjectInstanceChangedEventHandler] Project instance 533382 - Macaw's Biomes O' Plenty changed.
+[2026-04-29 11:52:18.192] [info]  [ProjectInstalledEventHandler] Project 533382 - Macaw's Biomes O' Plenty installed to create but better v2 instance.
+[2026-04-29 11:52:18.629] [info]  [ProjectInstanceChangedEventHandler] Project instance 1119394 - Macaw's Stairs changed.
+[2026-04-29 11:52:18.632] [info]  [ProjectInstanceChangedEventHandler] Project instance 1119394 - Macaw's Stairs changed.
+[2026-04-29 11:52:18.635] [info]  [ProjectInstalledEventHandler] Project 1119394 - Macaw's Stairs installed to create but better v2 instance.
+[2026-04-29 11:52:19.275] [info]  [ProjectInstanceChangedEventHandler] Project instance 439890 - Create Crafts & Additions changed.
+[2026-04-29 11:52:19.276] [info]  [ProjectInstalledEventHandler] Project 439890 - Create Crafts & Additions installed to create but better v2 instance.
+[2026-04-29 11:52:19.281] [info]  [ProjectInstanceChangedEventHandler] Project instance 439890 - Create Crafts & Additions changed.
+[2026-04-29 11:52:19.927] [info]  [ProjectInstanceChangedEventHandler] Project instance 905861 - Create: New Age changed.
+[2026-04-29 11:52:19.928] [info]  [ProjectInstalledEventHandler] Project 905861 - Create: New Age installed to create but better v2 instance.
+[2026-04-29 11:52:19.931] [info]  [ProjectInstanceChangedEventHandler] Project instance 905861 - Create: New Age changed.
+[2026-04-29 11:52:20.269] [info]  [ProjectInstanceChangedEventHandler] Project instance 1090999 - AddonsLib changed.
+[2026-04-29 11:52:20.272] [info]  [ProjectInstanceChangedEventHandler] Project instance 1090999 - AddonsLib changed.
+[2026-04-29 11:52:20.277] [info]  [ProjectInstalledEventHandler] Project 1090999 - AddonsLib installed to create but better v2 instance.
+[2026-04-29 11:52:21.986] [info]  [ProjectInstanceChangedEventHandler] Project instance 947914 - Create: Connected changed.
+[2026-04-29 11:52:21.989] [info]  [ProjectInstanceChangedEventHandler] Project instance 947914 - Create: Connected changed.
+[2026-04-29 11:52:21.992] [info]  [ProjectInstanceChangedEventHandler] Project instance 947914 - Create: Connected changed.
+[2026-04-29 11:52:21.993] [info]  [ProjectInstalledEventHandler] Project 947914 - Create: Connected installed to create but better v2 instance.
+[2026-04-29 11:52:22.343] [info]  [ProjectInstanceChangedEventHandler] Project instance 378979 - Borderless Window changed.
+[2026-04-29 11:52:22.349] [info]  [ProjectInstanceChangedEventHandler] Project instance 378979 - Borderless Window changed.
+[2026-04-29 11:52:22.350] [info]  [ProjectInstalledEventHandler] Project 378979 - Borderless Window installed to create but better v2 instance.
+[2026-04-29 11:52:22.942] [info]  [ProjectInstanceChangedEventHandler] Project instance 378646 - Macaw's Doors changed.
+[2026-04-29 11:52:22.945] [info]  [ProjectInstanceChangedEventHandler] Project instance 378646 - Macaw's Doors changed.
+[2026-04-29 11:52:22.949] [info]  [ProjectInstalledEventHandler] Project 378646 - Macaw's Doors installed to create but better v2 instance.
+[2026-04-29 11:52:23.757] [info]  [ProjectInstanceChangedEventHandler] Project instance 263420 - Xaero's Minimap changed.
+[2026-04-29 11:52:23.759] [info]  [ProjectInstanceChangedEventHandler] Project instance 263420 - Xaero's Minimap changed.
+[2026-04-29 11:52:23.760] [info]  [ProjectInstalledEventHandler] Project 263420 - Xaero's Minimap installed to create but better v2 instance.
+[2026-04-29 11:52:24.259] [info]  [ProjectInstanceChangedEventHandler] Project instance 629153 - Macaw's Paths and Pavings changed.
+[2026-04-29 11:52:24.262] [info]  [ProjectInstanceChangedEventHandler] Project instance 629153 - Macaw's Paths and Pavings changed.
+[2026-04-29 11:52:24.262] [info]  [ProjectInstalledEventHandler] Project 629153 - Macaw's Paths and Pavings installed to create but better v2 instance.
+[2026-04-29 11:52:24.946] [info]  [ProjectInstanceChangedEventHandler] Project instance 363569 - Macaw's Windows changed.
+[2026-04-29 11:52:24.948] [info]  [ProjectInstanceChangedEventHandler] Project instance 363569 - Macaw's Windows changed.
+[2026-04-29 11:52:24.948] [info]  [ProjectInstalledEventHandler] Project 363569 - Macaw's Windows installed to create but better v2 instance.
+[2026-04-29 11:52:26.113] [info]  [ProjectInstanceChangedEventHandler] Project instance 618298 - Sophisticated Core changed.
+[2026-04-29 11:52:26.115] [info]  [ProjectInstanceChangedEventHandler] Project instance 618298 - Sophisticated Core changed.
+[2026-04-29 11:52:26.118] [info]  [ProjectInstanceChangedEventHandler] Project instance 618298 - Sophisticated Core changed.
+[2026-04-29 11:52:26.118] [info]  [ProjectInstalledEventHandler] Project 618298 - Sophisticated Core installed to create but better v2 instance.
+[2026-04-29 11:52:26.514] [info]  [ProjectInstanceChangedEventHandler] Project instance 898849 - Create: Tweaked Controllers changed.
+[2026-04-29 11:52:26.515] [info]  [ProjectInstalledEventHandler] Project 898849 - Create: Tweaked Controllers installed to create but better v2 instance.
+[2026-04-29 11:52:26.517] [info]  [ProjectInstanceChangedEventHandler] Project instance 898849 - Create: Tweaked Controllers changed.
+[2026-04-29 11:52:28.310] [info]  [ProjectInstanceChangedEventHandler] Project instance 1196142 - Create: Sound of Steam changed.
+[2026-04-29 11:52:28.311] [info]  [ProjectInstanceChangedEventHandler] Project instance 1196142 - Create: Sound of Steam changed.
+[2026-04-29 11:52:28.313] [info]  [ProjectInstalledEventHandler] Project 1196142 - Create: Sound of Steam installed to create but better v2 instance.
+[2026-04-29 11:52:28.896] [info]  [ProjectInstanceChangedEventHandler] Project instance 1010066 - Create: Structures Arise changed.
+[2026-04-29 11:52:28.897] [info]  [ProjectInstanceChangedEventHandler] Project instance 1010066 - Create: Structures Arise changed.
+[2026-04-29 11:52:28.901] [info]  [ProjectInstalledEventHandler] Project 1010066 - Create: Structures Arise installed to create but better v2 instance.
+[2026-04-29 11:52:29.371] [info]  [ProjectInstanceChangedEventHandler] Project instance 400933 - Macaw's Trapdoors changed.
+[2026-04-29 11:52:29.373] [info]  [ProjectInstanceChangedEventHandler] Project instance 400933 - Macaw's Trapdoors changed.
+[2026-04-29 11:52:29.376] [info]  [ProjectInstalledEventHandler] Project 400933 - Macaw's Trapdoors installed to create but better v2 instance.
+[2026-04-29 11:52:30.211] [info]  [ProjectInstanceChangedEventHandler] Project instance 238222 - Just Enough Items (JEI) changed.
+[2026-04-29 11:52:30.213] [info]  [ProjectInstanceChangedEventHandler] Project instance 238222 - Just Enough Items (JEI) changed.
+[2026-04-29 11:52:30.215] [info]  [ProjectInstalledEventHandler] Project 238222 - Just Enough Items (JEI) installed to create but better v2 instance.
+[2026-04-29 11:52:30.539] [info]  [ModpackChangedEventHandler] Modpack bdfd8e9e-3950-4fd7-a839-940c0541cd74 changed.
+[2026-04-29 11:52:30.542] [info]  [GameInstanceChangedEventHandler] Game instance changed: bdfd8e9e-3950-4fd7-a839-940c0541cd74 - ["Saved"].
+[2026-04-29 11:52:30.692] [info]  [GameInstanceChangedEventHandler] Game instance changed: bdfd8e9e-3950-4fd7-a839-940c0541cd74 - ["Saved"].
+[2026-04-29 11:52:30.693] [info]  [ModpackChangedEventHandler] Modpack bdfd8e9e-3950-4fd7-a839-940c0541cd74 changed.
+[2026-04-29 11:52:30.737] [info]  [MinecraftInstanceTaskCompletedEventHandler] Minecraft instance task completed.
+[2026-04-29 11:52:37.215] [info]  [MojangLauncher] Launching modpack using the Mojang Launcher. Id: bdfd8e9e-3950-4fd7-a839-940c0541cd74, Launcher Type: 0.
+[2026-04-29 11:52:37.919] [info]  [GameInstanceChangedEventHandler] Game instance changed: bdfd8e9e-3950-4fd7-a839-940c0541cd74 - ["Saved"].
+[2026-04-29 11:52:37.919] [info]  [ModpackChangedEventHandler] Modpack bdfd8e9e-3950-4fd7-a839-940c0541cd74 changed.
+[2026-04-29 11:52:38.199] [info]  [GameInstanceChangedEventHandler] Game instance changed: bdfd8e9e-3950-4fd7-a839-940c0541cd74 - ["Saved"].
+[2026-04-29 11:52:38.427] [error] [PluginProcessHost] Agent stderr: 
+(minecraft-launcher:77260): Gtk-WARNING **: 11:52:38.426: Failed to parse /home/ethane/.config/gtk-3.0/settings.ini: Key file does not start with a group
+.
+[2026-04-29 11:52:39.605] [info]  [MinecraftGameProcessDetector] Starting detection for instance bdfd8e9e-3950-4fd7-a839-940c0541cd74.
+[2026-04-29 11:52:39.610] [info]  [ModpackChangedEventHandler] Modpack bdfd8e9e-3950-4fd7-a839-940c0541cd74 changed.
+[2026-04-29 11:52:39.613] [info]  [MinecraftInstanceTaskCompletedEventHandler] Minecraft instance task completed.
+[2026-04-29 11:54:57.251] [info]  [PluginProcessHost] Agent stdout: OK.
+[2026-04-29 11:54:57.530] [error] [PluginProcessHost] Agent stderr: 
+(minecraft-launcher:77821): Gtk-WARNING **: 11:54:57.529: Failed to parse /home/ethane/.config/gtk-3.0/settings.ini: Key file does not start with a group
+.
+[2026-04-29 11:55:29.385] [info]  [PluginProcessHost] Agent stdout: OK.
+[2026-04-29 11:55:30.001] [error] [PluginProcessHost] Agent stderr: 
+(minecraft-launcher:77821): Gtk-WARNING **: 11:55:29.998: Failed to parse /home/ethane/.config/gtk-3.0/settings.ini: Key file does not start with a group
+.
+[2026-04-29 11:55:30.120] [error] [PluginProcessHost] Agent stderr: sh: line 1: orca: command not found
+.
+[2026-04-29 11:55:30.143] [error] [PluginProcessHost] Agent stderr: Created browser window for reuse: 0x2800004
+.
+[2026-04-29 11:55:30.145] [error] [PluginProcessHost] Agent stderr: [77821:77821:0429/115530.144616:ERROR:browser_main_loop.cc(280)] Gdk: _gdk_frame_clock_freeze: assertion 'GDK_IS_FRAME_CLOCK (clock)' failed
+.
+[2026-04-29 11:55:31.902] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115531.901882:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:32.110] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115532.109833:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:32.111] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115532.110115:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[78041:78105:0429/115532.110236:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:32.329] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115532.328631:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:32.578] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115532.577467:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:32.830] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115532.829687:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:33.078] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115533.078213:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:33.330] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115533.329973:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:33.582] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115533.581301:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:33.832] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115533.830490:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:34.082] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115534.080639:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:34.333] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115534.331682:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:34.487] [error] [PluginProcessHost] Agent stderr: [78004:78004:0429/115534.485481:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+.
+[2026-04-29 11:55:34.583] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115534.581026:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:34.835] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115534.833938:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:35.084] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115535.083557:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:35.334] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115535.334010:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:35.592] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115535.590646:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:35.834] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115535.833979:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:36.085] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115536.084821:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:36.337] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115536.336460:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:36.589] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115536.588636:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:36.841] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115536.839926:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:37.090] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115537.089591:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:37.207] [error] [PluginProcessHost] Agent stderr: Created browser window for reuse: 0x2800016
+.
+[2026-04-29 11:55:37.208] [error] [PluginProcessHost] Agent stderr: [77821:77821:0429/115537.208440:ERROR:browser_main_loop.cc(280)] Gdk: _gdk_frame_clock_freeze: assertion 'GDK_IS_FRAME_CLOCK (clock)' failed
+.
+[2026-04-29 11:55:37.339] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115537.338234:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:37.600] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115537.598946:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:37.849] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115537.848597:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:38.091] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115538.090352:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:38.342] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115538.341088:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:38.610] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115538.610066:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:38.860] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115538.859546:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:39.112] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115539.111410:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:39.372] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115539.365151:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:39.411] [error] [PluginProcessHost] Agent stderr: [78004:78004:0429/115539.410680:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+.
+[2026-04-29 11:55:39.616] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115539.615174:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:39.870] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115539.869541:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:40.128] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115540.127897:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:40.367] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115540.366035:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:40.618] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115540.616894:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:40.888] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115540.887705:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:41.145] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115541.142249:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:41.393] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115541.391125:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:41.646] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115541.645411:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:41.890] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115541.889209:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:42.142] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115542.140930:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:42.403] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115542.402641:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:42.642] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115542.641525:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:42.893] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115542.891660:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:43.153] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115543.150330:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:43.394] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115543.392905:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:43.646] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115543.645065:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:43.895] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115543.894161:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:44.148] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115544.146718:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:44.407] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115544.402294:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:55:50.060] [error] [PluginProcessHost] Agent stderr: [77821:77821:0429/115550.059598:ERROR:browser_main_loop.cc(280)] Gdk: _gdk_frame_clock_thaw: assertion 'GDK_IS_FRAME_CLOCK (clock)' failed
+.
+[2026-04-29 11:55:53.112] [error] [PluginProcessHost] Agent stderr: Created browser window for reuse: 0x280001d
+.
+[2026-04-29 11:55:53.112] [error] [PluginProcessHost] Agent stderr: [77821:77821:0429/115553.112305:ERROR:browser_main_loop.cc(280)] Gdk: _gdk_frame_clock_freeze: assertion 'GDK_IS_FRAME_CLOCK (clock)' failed
+.
+[2026-04-29 11:55:57.590] [error] [PluginProcessHost] Agent stderr: [77821:77821:0429/115557.589681:ERROR:browser_main_loop.cc(280)] Gdk: _gdk_frame_clock_thaw: assertion 'GDK_IS_FRAME_CLOCK (clock)' failed
+.
+[2026-04-29 11:56:05.686] [error] [PluginProcessHost] Agent stderr: [78004:78004:0429/115605.684934:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+.
+[2026-04-29 11:56:07.759] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115607.757007:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 11:56:27.593] [error] [PluginProcessHost] Agent stderr: [78041:78105:0429/115627.592038:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+.
+[2026-04-29 12:04:39.340] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2026-04-29 12:04:39.341] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.302.0-32990.
+[2026-04-29 12:04:39.497] [info]  [AppUpdateStateChangedEventHandler] App update state changed: [object Object].
+[2026-04-29 12:04:39.497] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2026-04-29 12:04:39.497] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2026-04-29 12:07:28.600] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Offline.
+[2026-05-03 01:55:31.871] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Offline.
+[2026-05-03 01:55:32.882] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2026-05-03 01:55:32.935] [error] [EleriumCommunicationLayer] Failed to get v1/categories - Error: getaddrinfo EAI_AGAIN api.curseforge.com. Error: getaddrinfo EAI_AGAIN api.curseforge.com
+[2026-05-03 01:55:32.957] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432}.
+[2026-05-03 01:55:32.970] [error] [EleriumCommunicationLayer] Failed to get v1/categories - Error: getaddrinfo EAI_AGAIN api.curseforge.com. Error: getaddrinfo EAI_AGAIN api.curseforge.com
+[2026-05-03 01:55:33.957] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2026-05-03 01:55:33.963] [error] [EleriumCommunicationLayer] Failed to get v1/categories - Error: getaddrinfo EAI_AGAIN api.curseforge.com. Error: getaddrinfo EAI_AGAIN api.curseforge.com
+[2026-05-03 01:55:34.488] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Online.
+[2026-05-03 01:55:35.973] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2026-05-03 01:55:39.557] [error] [PluginProcessHost] Agent stderr: [77821:77990:0503/015539.555104:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-03 01:55:41.406] [error] [PluginProcessHost] Agent stderr: [77821:77990:0503/015541.404367:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-03 01:55:46.427] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2026-05-03 01:55:53.290] [error] [PluginProcessHost] Agent stderr: [77821:77990:0503/015553.288020:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-03 01:55:53.311] [error] [PluginProcessHost] Agent stderr: [77821:77990:0503/015553.308324:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-03 01:55:53.422] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Offline.
+[2026-05-04 02:37:44.903] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2026-05-04 02:37:49.497] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Offline.
+[2026-05-04 02:37:51.445] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2026-05-04 02:37:51.460] [error] [EleriumCommunicationLayer] Failed to get v1/categories - Error: getaddrinfo EAI_AGAIN api.curseforge.com. Error: getaddrinfo EAI_AGAIN api.curseforge.com
+[2026-05-04 02:37:51.466] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432}.
+[2026-05-04 02:37:51.475] [error] [EleriumCommunicationLayer] Failed to get v1/categories - Error: getaddrinfo EAI_AGAIN api.curseforge.com. Error: getaddrinfo EAI_AGAIN api.curseforge.com
+[2026-05-04 02:37:51.982] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Online.
+[2026-05-04 02:37:52.474] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2026-05-04 02:37:55.033] [error] [PluginProcessHost] Agent stderr: [77821:77990:0504/023755.031821:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-04 02:37:57.295] [error] [PluginProcessHost] Agent stderr: [77821:77990:0504/023757.292988:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-04 02:38:03.491] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2026-05-04 02:38:10.359] [error] [PluginProcessHost] Agent stderr: [77821:77990:0504/023810.357241:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-04 02:38:10.367] [error] [PluginProcessHost] Agent stderr: [77821:77990:0504/023810.365725:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-04 02:38:10.480] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Offline.
+[2026-05-04 08:57:36.897] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2026-05-04 08:57:41.208] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Offline.
+[2026-05-04 08:57:41.414] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2026-05-04 08:57:41.422] [error] [EleriumCommunicationLayer] Failed to get v1/categories - Error: getaddrinfo EAI_AGAIN api.curseforge.com. Error: getaddrinfo EAI_AGAIN api.curseforge.com
+[2026-05-04 08:57:41.426] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432}.
+[2026-05-04 08:57:41.580] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Online.
+[2026-05-04 08:57:42.428] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2026-05-04 08:57:43.656] [error] [PluginProcessHost] Agent stderr: [77821:77990:0504/085743.654574:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-04 08:57:45.877] [error] [PluginProcessHost] Agent stderr: [77821:77990:0504/085745.875144:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-04 08:57:51.148] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2026-05-04 08:57:56.863] [error] [PluginProcessHost] Agent stderr: [77821:77990:0504/085756.862447:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+.
+[2026-05-04 08:57:56.958] [info]  [NetworkStatusChangedEventHandler] Network Status Changed, Status:Offline.

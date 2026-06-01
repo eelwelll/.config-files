@@ -41,7 +41,7 @@
       "format-icons": {
         "default": "",
         "performance": "",
-        "balanced": "",
+        "balanced": " ",
         "power-saver": ""
       }
     },
@@ -129,8 +129,7 @@
     "group/ultrasounding":{
       "orientation":"vertical",
       "modules":[
-        "mpris",
-        "custom/soundBar"
+        "mpris"
       ]
     },
 
@@ -226,7 +225,8 @@
    
     "clock": {
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt> ",
-        "format-alt": "{:%Y-%m-%d}"
+        "format":"{:%A, %H:%M}",
+        "format-alt": "{:%d-%m-%Y}"
     },
     "cpu": {
         "format": "{usage}%  ",

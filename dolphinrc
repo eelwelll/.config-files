@@ -2,12 +2,18 @@
 Version=202
 ViewPropsTimestamp=2026,3,4,14,36,28.96
 
+[IconsMode]
+IconSize=48
+
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
 [MainWindow]
 MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,glycin-heif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,glycin-svg,svgthumbnail,gsf-office
 
 [UiSettings]
 ColorScheme=BreezeLight

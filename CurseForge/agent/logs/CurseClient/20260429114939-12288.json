@@ -1,0 +1,4696 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 74376,
+  "Arguments": [
+    "/opt/curseforge/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=50725",
+    "--to-port=50745",
+    "--pid=74262",
+    "--appDataPath=/home/ethane/.config/CurseForge",
+    "--api-key=12e27044-1432-4262-bd0c-f8cee9c66426",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2026-04-29T10:49:39.4620304Z",
+  "Version": "1.302.0.32990",
+  "BuildDate": "2000-01-01T18:19:40Z",
+  "Start": "2026-04-29T11:49:39.8451447+01:00",
+  "Log": [
+{
+  "timestamp": "2026-04-29T11:49:39.8368391+01:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2026-04-29T11:49:39.841918+01:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.302.0.32990"
+},
+{
+  "timestamp": "2026-04-29T11:49:39.8455997+01:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=50725,--to-port=50745,--pid=74262,--appDataPath=/home/ethane/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2026-04-29T11:49:39.8459401+01:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 74262"
+},
+{
+  "timestamp": "2026-04-29T11:49:40.841567+01:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/ethane/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2026-04-29T11:49:40.9759817+01:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 50725"
+},
+{
+  "timestamp": "2026-04-29T11:49:41.0675199+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2026-04-29T11:49:41.3537393+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2026-04-29T11:49:41.3592791+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2026-04-29T11:49:41.3624051+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2026-04-29T11:49:41.3686317+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2026-04-29T11:49:41.430578+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-04-29T11:49:41.4655023+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2026-04-29T11:49:41.9490776+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2026-04-29T11:49:41.9517013+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.0204251+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.0208124+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/ethane/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.0651993+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "112.00"
+  }
+},
+{
+  "timestamp": "2026-04-29T11:49:42.0865278+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.0872138+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing SQLite database..."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.089564+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Running migrations on: /home/ethane/.config/CurseForge/agent/database/app.db"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1209353+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "WAL mode enabled."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1297939+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Beginning database upgrade"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1335555+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Checking whether journal table exists"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1355192+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Journal table does not exist"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1463928+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Executing Database Server script 'Curse.Db.Migrations.Scripts.0001_CreateProjectOperationTable.sql'"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.148653+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Checking whether journal table exists"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1488694+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Creating the [SchemaVersions] table"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1491458+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "The [SchemaVersions] table has been created"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1577863+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Upgrade successful"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1580279+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Migrations completed successfully."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1606569+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "SQLite database initialized at: /home/ethane/.config/CurseForge/agent/database/app.db"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.1615486+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Recovering stale project operations..."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2113891+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "No stale project operations found."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2120238+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2284014+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2288652+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2291703+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2307759+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] Unable to load game instances from disk. No file was found at: /home/ethane/.config/CurseForge/agent/GameInstances/AddonGameInstance.json"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2309532+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2310505+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] Unable to load game instances from disk. No file was found at: /home/ethane/.config/CurseForge/agent/GameInstances/MinecraftGameInstance.json"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.233411+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 20 ms"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2341432+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2362664+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.240902+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2472947+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game instance count is 0, so we will scan all storage drives for games."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2473444+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Discovering games from search...",
+  "data": {
+    "Comprehensive": false,
+    "GamesInstancesCount": 0
+  }
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2764451+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 0 detected game instances. Operation took 40 ms"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2780113+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2785415+01:00",
+  "level": "Warn",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2810902+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2813477+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.2857767+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.285857+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.3083041+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.3083536+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.4900458+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "185.00"
+  }
+},
+{
+  "timestamp": "2026-04-29T11:49:42.580015+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "40.00"
+  }
+},
+{
+  "timestamp": "2026-04-29T11:49:42.8208379+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.8209305+01:00",
+  "level": "Warn",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2026-04-29T11:49:42.9788093+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:49:42.9788762+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2026-04-29T11:49:54.4803849+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2026-04-29T11:49:54.5299004+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:49:54.529927+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2026-04-29T11:50:09.932114+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Beginning Minecraft launcher installation."
+},
+{
+  "timestamp": "2026-04-29T11:50:09.9419183+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "InstallTask d6289d01-fb0e-422d-b822-b3e4c0a75bf0 MinecraftLauncherInstallTask started..."
+},
+{
+  "timestamp": "2026-04-29T11:50:09.9449276+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Beginning Minecraft Launcher install"
+},
+{
+  "timestamp": "2026-04-29T11:50:09.9470779+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "MinecraftRoot: /home/ethane/Documents/curseforge/minecraft"
+},
+{
+  "timestamp": "2026-04-29T11:50:09.9470887+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "InstanceRoot: /home/ethane/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2026-04-29T11:50:09.9470909+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "InstallRoot: /home/ethane/Documents/curseforge/minecraft/Install"
+},
+{
+  "timestamp": "2026-04-29T11:50:09.9476678+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "VersionRoot: /home/ethane/Documents/curseforge/minecraft/Install/versions"
+},
+{
+  "timestamp": "2026-04-29T11:50:09.9479945+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "DownloadRoot: /home/ethane/Documents/curseforge/minecraft/Downloads"
+},
+{
+  "timestamp": "2026-04-29T11:50:09.9489611+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Checking for existing installation",
+  "data": {
+    "Path": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher"
+  }
+},
+{
+  "timestamp": "2026-04-29T11:50:10.2090833+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading launcher https://launcher.mojang.com/download/Minecraft.tar.gz"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.2277158+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://launcher.mojang.com/download/Minecraft.tar.gz to /tmp/railf0zg.4g3/launcher.tar.gz"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.7768663+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Extracting launcher.tar.gz"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8580659+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8581248+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-04-29T11:50:10.859131+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "InstallTask d6289d01-fb0e-422d-b822-b3e4c0a75bf0 MinecraftLauncherInstallTask completed"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8593717+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8594947+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/ethane/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8635638+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8635952+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8811362+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.881189+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8834333+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8834667+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8850511+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:50:10.8850993+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-04-29T11:50:19.9942819+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[Modpack Install Flow] Starting import of modpack at /home/ethane/Downloads/create but better v2.zip"
+},
+{
+  "timestamp": "2026-04-29T11:50:19.9950469+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on Import ModpackTask-> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.1189086+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[Modpack Install Flow] Creating new instance at: /home/ethane/Documents/curseforge/minecraft/Instances/create but better v2/"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.1189136+01:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[Modpack Install Flow] Profile created at /home/ethane/Documents/curseforge/minecraft/Instances/create but better v2/"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.1709097+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.6720658+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.8049931+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 132ms"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.8696326+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.1"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.877042+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Creating version path: 1.21.1"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.8771866+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Creating inheritsPath path: 1.21.1"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.8772219+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:50:20.8772379+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-04-29T11:50:20.8772795+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.1 is not installed. Will now install it."
+},
+{
+  "timestamp": "2026-04-29T11:50:20.8814312+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar to /home/ethane/Documents/curseforge/minecraft/Install/versions/1.21.1/1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:22.0907506+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Saving to disk (a)."
+},
+{
+  "timestamp": "2026-04-29T11:50:22.0911972+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2026-04-29T11:50:22.1181905+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 26ms"
+},
+{
+  "timestamp": "2026-04-29T11:50:22.1185967+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2026-04-29T11:50:22.1741458+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 55ms"
+},
+{
+  "timestamp": "2026-04-29T11:50:26.5998498+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://piston-meta.mojang.com/v1/packages/94f420093e771cd1e72614184736b044c747a8df/1.21.1.json to /home/ethane/Documents/curseforge/minecraft/Install/versions/1.21.1/1.21.1.json"
+},
+{
+  "timestamp": "2026-04-29T11:50:26.8773944+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2026-04-29T11:50:27.1932682+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3058459+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1253573."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3058675+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3058708+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3058727+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3058739+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.305875+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3058833+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1216624."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3058852+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059094+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 220318."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059118+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 245755."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059131+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.305914+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 351264."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059151+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059164+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059183+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059197+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059225+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1470821."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059233+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059313+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 618298."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059327+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 394468."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059358+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.305937+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1312371."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059385+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 940057."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059391+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 955399."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059404+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 342584."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059419+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 531761."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.305944+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 220318."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059449+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 940057."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059458+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1090999."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059464+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 955399."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.3059477+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.310314+01:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2026-04-29T11:50:27.4145513+01:00",
+  "level": "Warn",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2026-04-29T11:50:27.465324+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.42/earlydisplay-4.0.42.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/fancymodloader/earlydisplay/4.0.42/earlydisplay-4.0.42.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:27.6722259+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/fancymodloader/loader/4.0.42/loader-4.0.42.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/fancymodloader/loader/4.0.42/loader-4.0.42.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:27.9158761+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.0228059+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.1670325+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/bus/8.0.5/bus-8.0.5.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.2478735+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.3120484+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.4020576+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.4655492+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.541223+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.7526442+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.8328977+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:28.9235625+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:29.0200723+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:29.0945516+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:29.1741425+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:29.5572985+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:30.184554+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:30.5905441+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:30.6579041+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:30.7503911+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:30.8325929+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:30.9274923+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:31.000198+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:31.0815721+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/ow2/asm/asm/9.8/asm-9.8.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.8/asm-9.8.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:31.1776348+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:31.2521212+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:31.3757506+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:31.4995402+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:31.7171749+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/mojang/logging/1.2.7/logging-1.2.7.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:31.8013534+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:31.9191918+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:32.6176208+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:32.8570504+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:33.004948+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:33.1537042+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:33.4073749+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:33.4983069+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:34.2603183+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:34.4134899+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:34.4998775+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:34.5944797+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:34.810837+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:34.8935353+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:34.9962985+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:35.1709313+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:35.2992178+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:35.450796+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip"
+},
+{
+  "timestamp": "2026-04-29T11:50:36.0594936+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:36.3415932+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:36.6230204+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:36.7524611+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:36.8587358+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:36.9687729+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:37.1184936+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:37.1931401+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:37.3079039+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:37.3705081+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/com/google/guava/guava/20.0/guava-20.0.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/20.0/guava-20.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:37.978595+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/com/opencsv/opencsv/4.4/opencsv-4.4.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:38.1074024+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:38.1953972+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:38.287778+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:38.4742993+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/apache/commons/commons-text/1.3/commons-text-1.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:38.5973933+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:38.7923387+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:38.9349447+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:39.1970425+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:39.3722497+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:39.6073613+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:39.6703514+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.228/neoforge-21.1.228-universal.jar to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoforge/21.1.228/neoforge-21.1.228-universal.jar"
+},
+{
+  "timestamp": "2026-04-29T11:50:40.464748+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://modloaders.forgecdn.net/647622546/maven/net/neoforged/neoforge/21.1.228/neoforge-21.1.228-clientdata.lzma to /home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoforge/21.1.228/neoforge-21.1.228-clientdata.lzma"
+},
+{
+  "timestamp": "2026-04-29T11:50:41.3780958+01:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Invalid java detection path: /home/ethane/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java"
+},
+{
+  "timestamp": "2026-04-29T11:50:41.3789864+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading Java Runtime"
+},
+{
+  "timestamp": "2026-04-29T11:50:41.3808773+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/1.tar.gz"
+},
+{
+  "timestamp": "2026-04-29T11:50:53.9865088+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Extracting Java Runtime 1.tar.gz"
+},
+{
+  "timestamp": "2026-04-29T11:50:54.8944983+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Java version 21.0.4 found at /home/ethane/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java taking 39ms"
+},
+{
+  "timestamp": "2026-04-29T11:50:54.8946852+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Using Java version 21.0.4.0 for post installation forge tasks"
+},
+{
+  "timestamp": "2026-04-29T11:50:54.8960541+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/ethane/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/20.0/guava-20.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar\" net.neoforged.installertools.ConsoleTool --task MCP_DATA --input \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip\" --output  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings.txt\" --key mappings\""
+},
+{
+  "timestamp": "2026-04-29T11:50:55.1054833+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/ethane/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/20.0/guava-20.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar\" net.neoforged.installertools.ConsoleTool --task DOWNLOAD_MOJMAPS --version 1.21.1 --side  client --output  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-mappings.txt\"\""
+},
+{
+  "timestamp": "2026-04-29T11:50:58.1588582+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/ethane/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/com/google/guava/guava/20.0/guava-20.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar\" net.neoforged.installertools.ConsoleTool --task MERGE_MAPPING --left  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings.txt\" --right  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-mappings.txt\" --output  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings-merged.txt\" --classes --fields --methods --reverse-right\""
+},
+{
+  "timestamp": "2026-04-29T11:50:59.5754902+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/ethane/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar\" net.neoforged.jarsplitter.ConsoleTool --input  ./versions/1.21.1/1.21.1.jar --slim  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-slim.jar\" --extra  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-extra.jar\" --srg  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings-merged.txt\"\""
+},
+{
+  "timestamp": "2026-04-29T11:51:03.1994231+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/ethane/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar\" net.neoforged.art.Main --input  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-slim.jar\" --output  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar\" --names  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430-mappings-merged.txt\" --ann-fix --ids-fix --src-fix --record-fix\""
+},
+{
+  "timestamp": "2026-04-29T11:51:05.9634195+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-04-29T11:51:05.9917346+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-04-29T11:51:07.5702516+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Executing shell process: \"/home/ethane/Documents/curseforge/minecraft/Install/java/Jre_21/bin/java -classpath \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar:/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar\" net.neoforged.binarypatcher.ConsoleTool --clean  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar\" --output  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoforge/21.1.228/neoforge-21.1.228-client.jar\" --apply  \"/home/ethane/Documents/curseforge/minecraft/Install/libraries/net/neoforged/neoforge/21.1.228/neoforge-21.1.228-clientdata.lzma\"\""
+},
+{
+  "timestamp": "2026-04-29T11:51:11.1808533+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2026-04-29T11:51:11.1919911+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "mechanicals-1.21.1-1.1.0.jar - (1253573/7226648) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:11.3002414+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7226/648/mechanicals-1.21.1-1.1.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:11.3100428+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7226/648/mechanicals-1.21.1-1.1.0.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/2.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:11.809319+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloaded file for project Mechanicals Lib - (1253573) in 512ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:11.9096377+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "create_mechanical_spawner-1.21.1-1.3.0-6.0.8.jar - (821828/7226764) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:12.0219086+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7226/764/create_mechanical_spawner-1.21.1-1.3.0-6.0.8.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:12.0224782+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7226/764/create_mechanical_spawner-1.21.1-1.3.0-6.0.8.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/3.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:12.5783373+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create Mechanical Spawner - (821828) in 556ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:12.583799+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "balm-neoforge-1.21.1-21.0.56.jar - (531761/7420963) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:12.6071024+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7420/963/balm-neoforge-1.21.1-21.0.56.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:12.6073202+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7420/963/balm-neoforge-1.21.1-21.0.56.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/4.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:18.1270952+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloaded file for project Balm - (531761) in 5519ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:18.1349102+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "embeddium-1.0.15+mc1.21.1.jar - (908741/6118392) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:18.2408254+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6118/392/embeddium-1.0.15%2bmc1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:18.2409338+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6118/392/embeddium-1.0.15%2bmc1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/5.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:18.6928453+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Embeddium - (908741) in 452ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:18.7019307+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "railways-0.1.0+neoforge-mc1.21.1.jar - (1414670/7478287) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:18.8140886+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7478/287/railways-0.1.0%2bneoforge-mc1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:18.8142787+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7478/287/railways-0.1.0%2bneoforge-mc1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/6.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:21.3487254+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Steam 'n' Rails Neoforge - (1414670) in 2534ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:21.3871861+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "sophisticatedbackpacks-1.21.1-3.25.41.1683.jar - (422301/7954364) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:21.4959192+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7954/364/sophisticatedbackpacks-1.21.1-3.25.41.1683.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:21.4961433+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7954/364/sophisticatedbackpacks-1.21.1-3.25.41.1683.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/7.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:22.0065534+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project Sophisticated Backpacks - (422301) in 510ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:22.0097582+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2026-04-29T11:51:22.2305673+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "sable-neoforge-1.21.1-1.1.3.jar - (1312371/7965090) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:22.3400269+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7965/90/sable-neoforge-1.21.1-1.1.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:22.3402866+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7965/90/sable-neoforge-1.21.1-1.1.3.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/8.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:27.7450156+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Sable - (1312371) in 5404ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:27.8044351+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "kotlinforforge-5.11.0-all.jar - (351264/7471280) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:27.9158262+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7471/280/kotlinforforge-5.11.0-all.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:27.9160013+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7471/280/kotlinforforge-5.11.0-all.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/9.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:29.4260396+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Kotlin for Forge - (351264) in 1510ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:29.4455746+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "CreateDragonsPlus-1.10.0b.jar - (1216624/7970093) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:29.5559803+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7970/93/CreateDragonsPlus-1.10.0b.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:29.5562339+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7970/93/CreateDragonsPlus-1.10.0b.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/10.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:29.9349594+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create: Dragons Plus - (1216624) in 378ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:29.9397494+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "create_ultimate_factory-2.2.3-neoforge-1.21.1.jar - (978125/7636508) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.0472107+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7636/508/create_ultimate_factory-2.2.3-neoforge-1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.0474838+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7636/508/create_ultimate_factory-2.2.3-neoforge-1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/11.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.3114529+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create: Ultimate Factory - (978125) in 264ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.3152431+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar - (940057/6054947) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.4329738+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6054/947/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.4331358+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6054/947/TerraBlender-neoforge-1.21.1-4.1.0.8.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/12.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.6796009+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project TerraBlender (NeoForge) - (940057) in 246ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.6838634+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "createutilities-0.3.3+mc1.21.1.jar - (1501231/7961032) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.7912375+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7961/32/createutilities-0.3.3%2bmc1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:30.7915068+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7961/32/createutilities-0.3.3%2bmc1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/13.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:31.1177749+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create Utilities (Unofficial Port) - (1501231) in 326ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:31.1197427+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "create-enchantment-industry-2.3.1.jar - (688768/7970748) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:31.2288335+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7970/748/create-enchantment-industry-2.3.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:31.2289684+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7970/748/create-enchantment-industry-2.3.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/14.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:31.5850963+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create: Enchantment Industry - (688768) in 356ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:31.5873121+01:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "iris-neoforge-1.8.12+mc1.21.1.jar - (455508/6661598) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:31.7023061+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6661/598/iris-neoforge-1.8.12%2bmc1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:31.7024395+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6661/598/iris-neoforge-1.8.12%2bmc1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/15.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:32.4179211+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloaded file for project Iris Shaders - (455508) in 715ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:32.4212718+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "xaeroworldmap-neoforge-1.21.1-1.40.11.jar - (317780/7598481) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:32.528611+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7598/481/xaeroworldmap-neoforge-1.21.1-1.40.11.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:32.5287352+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7598/481/xaeroworldmap-neoforge-1.21.1-1.40.11.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/16.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:32.9892299+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project Xaero's World Map - (317780) in 460ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:32.9969565+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "create-aeronautics-bundled-1.21.1-1.1.3.jar - (676721/7964998) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:33.1051849+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7964/998/create-aeronautics-bundled-1.21.1-1.1.3.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:33.1053294+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7964/998/create-aeronautics-bundled-1.21.1-1.1.3.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/17.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:40.4956648+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create Aeronautics - (676721) in 7390ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:40.5338713+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar - (453925/7308338) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:40.6482826+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7308/338/mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:40.6485149+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7308/338/mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/18.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.0558861+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project Macaw's Fences and Walls - (453925) in 5407ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.061681+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "collective-1.21.1-8.20.jar - (342584/7925030) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.1745229+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7925/30/collective-1.21.1-8.20.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.1747527+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7925/30/collective-1.21.1-8.20.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/19.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.6232155+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project Collective - (342584) in 448ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.6285575+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "anvilcore-10.1 Release-neoforge-1.21.1.jar - (1470821/7771419) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.7443813+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7771/419/anvilcore-10.1%20Release-neoforge-1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.7446056+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7771/419/anvilcore-10.1%20Release-neoforge-1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/20.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.9925868+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project AnvilCore 🔨 - (1470821) in 248ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:46.9954711+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar - (220318/7251965) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:47.1017308+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7251/965/BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:47.1019531+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7251/965/BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/21.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:52.0531015+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project Biomes O' Plenty - (220318) in 4951ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:52.0873421+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "EasierSleeping-1.21.1-4.0.0.jar - (388364/7322535) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:52.2037644+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7322/535/EasierSleeping-1.21.1-4.0.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:52.2039858+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7322/535/EasierSleeping-1.21.1-4.0.0.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/22.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:52.7009726+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project Easier Sleeping - (388364) in 497ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:52.7031618+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "create-stuff-additions1.21.1_v2.1.0e.jar - (466792/6448012) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:52.8118839+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6448/12/create-stuff-additions1.21.1_v2.1.0e.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:52.8120231+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6448/12/create-stuff-additions1.21.1_v2.1.0e.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/23.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:53.3176695+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create Stuff 'N Additions - (466792) in 505ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:53.3203309+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "sodium-neoforge-0.6.13+mc1.21.1.jar - (394468/6382651) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:53.4276698+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6382/651/sodium-neoforge-0.6.13%2bmc1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:53.4278943+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6382/651/sodium-neoforge-0.6.13%2bmc1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/24.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:53.8612883+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Sodium - (394468) in 433ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:53.8639154+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2026-04-29T11:51:54.0572757+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "CreateOPlenty-NeoForge-Create+6.0.7-3.0.jar - (1351997/7476105) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:54.1670998+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7476/105/CreateOPlenty-NeoForge-Create%2b6.0.7-3.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:54.16733+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7476/105/CreateOPlenty-NeoForge-Create%2b6.0.7-3.0.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/25.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:54.3803715+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat) - (1351997) in 213ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:54.3842148+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "mcw-furniture-3.4.1-mc1.21.1neoforge.jar - (359540/7255584) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:54.4925742+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7255/584/mcw-furniture-3.4.1-mc1.21.1neoforge.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:54.4927941+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7255/584/mcw-furniture-3.4.1-mc1.21.1neoforge.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/26.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:55.5619282+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Macaw's Furniture - (359540) in 1069ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:55.5681686+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "treeharvester-1.21.1-9.1.jar - (367178/6184916) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:55.6822792+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6184/916/treeharvester-1.21.1-9.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:55.6824896+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6184/916/treeharvester-1.21.1-9.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/27.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:55.9156321+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloaded file for project Tree Harvester - (367178) in 233ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:55.9192116+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip - (610844/7251787) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:56.0258051+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7251/787/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:56.0260115+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7251/787/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/28.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:56.5577499+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloaded file for project Bliss Shaders - (610844) in 531ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:56.5733368+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "FarmersDelight-1.21.1-1.2.11a.jar - (398521/7953736) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:56.682856+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7953/736/FarmersDelight-1.21.1-1.2.11a.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:56.6829875+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7953/736/FarmersDelight-1.21.1-1.2.11a.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/29.zip"
+},
+{
+  "timestamp": "2026-04-29T11:51:57.4392383+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloaded file for project Farmer's Delight - (398521) in 756ms"
+},
+{
+  "timestamp": "2026-04-29T11:51:57.4428866+01:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "create-1.21.1-6.0.10.jar - (328085/7963363) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:51:57.5507465+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7963/363/create-1.21.1-6.0.10.jar"
+},
+{
+  "timestamp": "2026-04-29T11:51:57.5509856+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7963/363/create-1.21.1-6.0.10.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/30.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:01.3853659+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create - (328085) in 3834ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:01.4152216+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "xaeros_waystones_compatibility-NeoForge-1.21.1-2.1.0.jar - (887484/7976140) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:01.5238402+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7976/140/xaeros_waystones_compatibility-NeoForge-1.21.1-2.1.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:01.5240898+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7976/140/xaeros_waystones_compatibility-NeoForge-1.21.1-2.1.0.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/31.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:01.7321832+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Xaero's Minimap & World Map - Waystones Compatibility [Forge & NeoForge] - (887484) in 208ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:01.7358053+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "mcw-lights-1.1.5-mc1.21.1neoforge.jar - (502372/7304075) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:01.84238+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7304/75/mcw-lights-1.1.5-mc1.21.1neoforge.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:01.8426222+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7304/75/mcw-lights-1.1.5-mc1.21.1neoforge.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/32.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:02.1691453+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Macaw's Lights and Lamps - (502372) in 326ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:02.173294+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Essential_1-3-10-8_neoforge_1-21-1.jar - (546670/7806141) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:02.281838+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7806/141/Essential_1-3-10-8_neoforge_1-21-1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:02.2820826+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7806/141/Essential_1-3-10-8_neoforge_1-21-1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/33.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:15.0932741+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Essential Mod - (546670) in 12811ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:15.1672828+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "waystones-neoforge-1.21.1-21.1.30.jar - (245755/7966157) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:15.2773827+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7966/157/waystones-neoforge-1.21.1-21.1.30.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:15.2776177+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7966/157/waystones-neoforge-1.21.1-21.1.30.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/34.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:15.7022153+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Waystones - (245755) in 424ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:15.7068878+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "sliceanddice-forge-4.2.4.jar - (659674/7738176) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:15.8164952+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7738/176/sliceanddice-forge-4.2.4.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:15.816744+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7738/176/sliceanddice-forge-4.2.4.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/35.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:16.1497499+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create Slice & Dice - (659674) in 333ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:16.1516169+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "GlitchCore-neoforge-1.21.1-2.1.0.0.jar - (955399/5660740) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:16.2575469+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5660/740/GlitchCore-neoforge-1.21.1-2.1.0.0.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:16.2576648+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5660/740/GlitchCore-neoforge-1.21.1-2.1.0.0.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/36.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:16.4946954+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project GlitchCore - (955399) in 237ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:16.4987595+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "mcwbiomesoplenty-neoforge-1.21.1-1.5.jar - (533382/7370030) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:16.6075036+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7370/30/mcwbiomesoplenty-neoforge-1.21.1-1.5.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:16.6077414+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7370/30/mcwbiomesoplenty-neoforge-1.21.1-1.5.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/37.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:18.1816435+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloaded file for project Macaw's Biomes O' Plenty - (533382) in 1574ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:18.1896511+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar - (1119394/7317479) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:18.2991309+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7317/479/mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:18.2994061+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7317/479/mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/38.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:18.6223004+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Macaw's Stairs - (1119394) in 323ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:18.6271096+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "createaddition-1.5.10.jar - (439890/7518252) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:18.7395488+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7518/252/createaddition-1.5.10.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:18.7396832+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7518/252/createaddition-1.5.10.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/39.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:19.2672483+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create Crafts & Additions - (439890) in 527ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:19.2699208+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "create-new-age-1.1.7c+neoforge-mc1.21.1.jar - (905861/7388244) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:19.3797121+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7388/244/create-new-age-1.1.7c%2bneoforge-mc1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:19.379844+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7388/244/create-new-age-1.1.7c%2bneoforge-mc1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/40.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:19.919993+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create: New Age - (905861) in 540ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:19.9226789+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "addonslib-neoforge-1.21.1-1.10.jar - (1090999/7369254) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:20.0309187+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7369/254/addonslib-neoforge-1.21.1-1.10.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:20.0311821+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7369/254/addonslib-neoforge-1.21.1-1.10.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/41.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:20.263054+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project AddonsLib - (1090999) in 232ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:20.2673714+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "create_connected-1.1.13-mc1.21.1.jar - (947914/7593837) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:20.3783972+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7593/837/create_connected-1.1.13-mc1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:20.3786173+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7593/837/create_connected-1.1.13-mc1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/42.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:21.9702862+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create: Connected - (947914) in 1591ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:21.9868789+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "borderless-neoforge-1.21.1-1.7.5_1-all.jar - (378979/7604034) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:22.1166571+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7604/34/borderless-neoforge-1.21.1-1.7.5_1-all.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:22.1168946+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7604/34/borderless-neoforge-1.21.1-1.7.5_1-all.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/43.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:22.3371076+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Borderless Window - (378979) in 220ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:22.3420093+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "mcw-doors-1.1.5-mc1.21.1neoforge.jar - (378646/7618651) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:22.4519428+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7618/651/mcw-doors-1.1.5-mc1.21.1neoforge.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:22.4521416+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7618/651/mcw-doors-1.1.5-mc1.21.1neoforge.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/44.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:22.9361487+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Macaw's Doors - (378646) in 484ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:22.9411864+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "xaerominimap-neoforge-1.21.1-25.3.10.jar - (263420/7598595) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:23.0501962+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7598/595/xaerominimap-neoforge-1.21.1-25.3.10.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:23.0503896+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7598/595/xaerominimap-neoforge-1.21.1-25.3.10.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/45.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:23.7517386+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Xaero's Minimap - (263420) in 701ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:23.7572223+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar - (629153/7029451) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:23.8677958+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7029/451/mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:23.8680095+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7029/451/mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/46.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:24.2548709+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Macaw's Paths and Pavings - (629153) in 387ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:24.2589825+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar - (363569/7317672) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:24.3709856+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7317/672/mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:24.3712999+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7317/672/mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/47.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:24.9407984+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Macaw's Windows - (363569) in 569ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:24.9514594+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "sophisticatedcore-1.21.1-1.4.28.1728.jar - (618298/7981987) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:25.4222889+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7981/987/sophisticatedcore-1.21.1-1.4.28.1728.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:25.4225109+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7981/987/sophisticatedcore-1.21.1-1.4.28.1728.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/48.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:25.9003313+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Sophisticated Core - (618298) in 478ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:25.9029244+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2026-04-29T11:52:26.1128168+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "create_tweaked_controllers-1.21.1-1.2.7.jar - (898849/7958165) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:26.2257676+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7958/165/create_tweaked_controllers-1.21.1-1.2.7.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:26.2258903+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7958/165/create_tweaked_controllers-1.21.1-1.2.7.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/49.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:26.5107482+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create: Tweaked Controllers - (898849) in 284ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:26.5126737+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "pipeorgans-0.8.2+1.21.1.jar - (1196142/7315860) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:26.8257368+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7315/860/pipeorgans-0.8.2%2b1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:26.8258627+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7315/860/pipeorgans-0.8.2%2b1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/50.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:28.3029146+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create: Sound of Steam - (1196142) in 1477ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:28.3100788+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "create_structures_arise-174.47.46 Release-neoforge-1.21.1.jar - (1010066/7772648) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:28.4175369+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7772/648/create_structures_arise-174.47.46%20Release-neoforge-1.21.1.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:28.4177622+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7772/648/create_structures_arise-174.47.46%20Release-neoforge-1.21.1.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/51.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:28.8924003+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloaded file for project Create: Structures Arise - (1010066) in 474ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:28.8948116+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar - (400933/7256148) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:29.0148574+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7256/148/mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:29.0150583+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7256/148/mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/52.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:29.3664008+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Macaw's Trapdoors - (400933) in 351ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:29.3684841+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "jei-1.21.1-neoforge-19.27.0.336.jar - (238222/7391682) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2026-04-29T11:52:29.4839869+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7391/682/jei-1.21.1-neoforge-19.27.0.336.jar"
+},
+{
+  "timestamp": "2026-04-29T11:52:29.4841071+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7391/682/jei-1.21.1-neoforge-19.27.0.336.jar to /tmp/CF_iXnnRm1qikOCDvKObOqr7w/KU1TlrPcJUXAEEf5V4bA/53.zip"
+},
+{
+  "timestamp": "2026-04-29T11:52:30.0598712+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded file for project Just Enough Items (JEI) - (238222) in 575ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:30.0612406+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2026-04-29T11:52:30.4118729+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2026-04-29T11:52:30.5378193+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 125ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:30.5502403+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2026-04-29T11:52:30.6909522+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 140ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:30.6972899+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.4195582+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://piston-meta.mojang.com/v1/packages/fc22b8ffcf9c6c1178c761e548221e394a5025d2/1.21.1.json to /home/ethane/Documents/curseforge/minecraft/Install/versions/1.21.1/1.21.1.json"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.5969882+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "InstallTask d6cdcc81-269f-428e-bb4e-102d758cc127 LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2026-04-29T11:52:37.5983597+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.6023093+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.1"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.6029211+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.6029301+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-04-29T11:52:37.6029454+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.1 already exists... Skipping installation."
+},
+{
+  "timestamp": "2026-04-29T11:52:37.6029646+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Installing NeoForge mod loader neoforge-21.1.228."
+},
+{
+  "timestamp": "2026-04-29T11:52:37.804342+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Client patch is already applied, skipping."
+},
+{
+  "timestamp": "2026-04-29T11:52:37.805295+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.8075675+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.918625+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 111ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.9197818+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: create but better v2"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.930833+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.9311508+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/ethane/Documents/curseforge/minecraft/Install/versions/neoforge-21.1.228/neoforge-21.1.228.json"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.931614+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/ethane/Documents/curseforge/minecraft/Install/versions/neoforge-21.1.228/neoforge-21.1.228.json"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.932001+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.9321723+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/ethane/Documents/curseforge/minecraft/Install/versions/neoforge-21.1.228/neoforge-21.1.228.json"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.9329248+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/ethane/Documents/curseforge/minecraft/Install/versions/neoforge-21.1.228/neoforge-21.1.228.json"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.9348351+01:00",
+  "level": "Warn",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Cannot read launcher_profiles.json from /home/ethane/Documents/curseforge/minecraft/Install/launcher_profiles.json. Creating new (legacy) profile.",
+  "error": {
+    "message": "/home/ethane/Documents/curseforge/minecraft/Install/launcher_profiles.json",
+    "type": "System.IO.FileNotFoundException",
+    "stack": [
+      "Curse.Games.Minecraft.Launcher.Profiles.LauncherProfilesHelper.GetLauncherProfileType(String)",
+      "Curse.Games.Minecraft.Launcher.Profiles.LauncherProfilesHelper.ReadLauncherProfile(String)",
+      "Curse.Games.Minecraft.Launcher.Profiles.LauncherProfilesHelper.InsertProfile()",
+      "Curse.Games.Minecraft.InstallTasks.LaunchMinecraftTask.InsertProfileForLaunch()",
+      "Curse.Games.Minecraft.InstallTasks.LaunchMinecraftTask+<OnRunAsync>d__18.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "Curse.Games.Minecraft.InstallTasks.LaunchMinecraftTask+<DoValidateMinecraftVersionAsync>d__34.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "Curse.Radium.InstallManagement.BaseInstallTask+<RunImmediatelyAsync>d__38.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "Curse.Radium.InstallManagement.BaseInstallTask+<RunAsync>d__39.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Games.Minecraft.InstallTasks.MinecraftVersionInstallTask+<OnRunAsync>d__4.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "Curse.Radium.InstallManagement.BaseInstallTask+<RunImmediatelyAsync>d__38.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "Curse.Radium.InstallManagement.BaseInstallTask+<RunAsync>d__39.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Games.Minecraft.Installers.ForgeInstallerProvider_v2+<OnRunAsync>d__13.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "Curse.Common.Threading.TaskQueue+<RunAsync>d__8.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.ExecuteTask(Task)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ProcessExclusiveTasks()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+SchedulerWorkItem.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-04-29T11:52:37.960087+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 3)",
+  "data": {
+    "name": "create but better v2",
+    "gameDir": "/home/ethane/Documents/curseforge/minecraft/Instances/create but better v2/",
+    "lastVersionId": "neoforge-21.1.228",
+    "javaArgs": "-Xmx9056m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DCFInstanceId=bdfd8e9e-3950-4fd7-a839-940c0541cd74 -DlibraryDirectory=\"/home/ethane/Documents/curseforge/minecraft/Install/libraries\"",
+    "resolution": {
+      "height": 768,
+      "width": 1024
+    },
+    "type": "custom",
+    "created": "2026-04-29T10:52:37.9594022Z",
+    "lastUsed": "2026-04-29T10:52:37.9594343Z"
+  }
+},
+{
+  "timestamp": "2026-04-29T11:52:37.9635301+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2026-04-29T11:52:37.9669501+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/ethane/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2026-04-29T11:52:38.0712263+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Process start '/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/ethane/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2026-04-29T11:52:38.0752849+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2026-04-29T11:52:38.198336+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 123ms"
+},
+{
+  "timestamp": "2026-04-29T11:52:38.1988083+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2026-04-29T11:52:39.6015856+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "InstallTask d6cdcc81-269f-428e-bb4e-102d758cc127 LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2026-04-29T11:56:09.6450053+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T11:56:09.6450483+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-04-29T11:56:09.6674283+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2026-04-29T11:56:10.7153798+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-04-29T11:56:10.7166413+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-04-29T11:56:10.7254686+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-04-29T12:01:13.5216491+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-04-29T12:01:13.5448896+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-04-29T12:03:32.339928+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-04-29T12:03:32.3399926+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-04-29T12:03:32.3609983+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-04-29T12:03:33.4092061+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-04-29T12:03:36.7008006+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2026-04-29T12:03:36.7063809+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-04-29T12:07:28.5927032+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2026-04-29T12:07:28.5959406+01:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network status changed: Disconnected"
+},
+{
+  "timestamp": "2026-04-29T12:07:28.6657974+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:27.6270259+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8373973+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 210ms"
+},
+{
+  "timestamp": "2026-05-03T01:55:27.838591+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8409473+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 2ms"
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8536765+01:00",
+  "level": "Error",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Failed getting games database timestamp from server",
+  "error": {
+    "message": "Unable to proceed with GetAsync request. there is no internet connection",
+    "type": "Curse.Server.Communication.Exceptions.OfflineNetworkException",
+    "stack": [
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.AddonServiceClient+<GetGameDatabaseTimestampAsync>d__32.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.Games.GameRepository+<GetServiceTimestampAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine&)",
+      "Curse.TechService.Games.GameRepository.GetServiceTimestampAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.GetServiceLastUpdatedAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.UpdateCacheAsync(Boolean)",
+      "Curse.TechService.Games.GameRepository.Curse.Domain.Games.IGameRepository.UpdateCacheAsync(Boolean)",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoCheckForGameCacheUpdateAsync>d__23.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation.DoCheckForGameCacheUpdateAsync()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__19.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTasksAsync>d__22.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<DoPeriodicTasksAsync>d__16.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<Timer_Elapsed>d__15.MoveNext()",
+      "System.Timers.Timer.MyTimerCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.TimerQueue.FireNextTimers()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8678926+01:00",
+  "level": "Warn",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[GameRepository] Service down and we have a cache. Skipping refresh."
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8732946+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8873101+01:00",
+  "level": "Error",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Failed getting modloaders database timestamp from server",
+  "error": {
+    "message": "Unable to proceed with GetAsync request. there is no internet connection",
+    "type": "Curse.Server.Communication.Exceptions.OfflineNetworkException",
+    "stack": [
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.AddonServiceClient+<GetModloadersDatabaseTimestampAsync>d__28.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.Games.Minecraft.ModLoader.ModLoaderRepository+<GetServiceTimestampAsync>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.ModLoader.ModLoaderRepository.GetServiceTimestampAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.GetServiceLastUpdatedAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.ModLoader.ModLoaderRepository.Curse.Domain.Minecraft.ModLoader.IModLoaderRepository.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<PerformCacheUpdateAsync>d__23.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.PerformCacheUpdateAsync()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<DoPeriodicTasksAsync>d__15.MoveNext()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.DoPeriodicTasksAsync()",
+      "Curse.AppService.MinecraftAppService.<InitPeriodicTasks>b__44_0()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__19.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__20.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTasksAsync>d__22.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<DoPeriodicTasksAsync>d__16.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<Timer_Elapsed>d__15.MoveNext()",
+      "System.Timers.Timer.MyTimerCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.TimerQueue.FireNextTimers()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8906013+01:00",
+  "level": "Warn",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Service down and we have a cache. Skipping refresh."
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8911198+01:00",
+  "level": "Error",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Failed getting Minecraft Versions database timestamp from server",
+  "error": {
+    "message": "Unable to proceed with GetAsync request. there is no internet connection",
+    "type": "Curse.Server.Communication.Exceptions.OfflineNetworkException",
+    "stack": [
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.AddonServiceClient+<GetMinecraftVersionsDatabaseTimestampAsync>d__30.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.Games.Minecraft.MinecraftVersionDatabase+<GetServiceTimestampAsync>d__5.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.MinecraftVersionDatabase.GetServiceTimestampAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.GetServiceLastUpdatedAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.MinecraftVersionDatabase.Curse.Radium.Minecraft.IMinecraftVersionRepository.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<PerformCacheUpdateAsync>d__23.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.PerformCacheUpdateAsync()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<DoPeriodicTasksAsync>d__15.MoveNext()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.DoPeriodicTasksAsync()",
+      "Curse.AppService.MinecraftAppService.<InitPeriodicTasks>b__44_0()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__19.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__20.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTasksAsync>d__22.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<DoPeriodicTasksAsync>d__16.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<Timer_Elapsed>d__15.MoveNext()",
+      "System.Timers.Timer.MyTimerCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.TimerQueue.FireNextTimers()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8924947+01:00",
+  "level": "Warn",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Service down and we have a cache. Skipping refresh."
+},
+{
+  "timestamp": "2026-05-03T01:55:27.8925748+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2026-05-03T01:55:28.2528687+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:28.4046134+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:31.6517525+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:31.8342115+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:31.8686244+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:31.8686612+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network status changed: Reconnecting"
+},
+{
+  "timestamp": "2026-05-03T01:55:32.877576+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-05-03T01:55:32.8776708+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-05-03T01:55:33.0051623+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:34.2926681+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:34.2970418+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:34.4484587+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:34.4859395+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-05-03T01:55:34.4860418+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network status changed: Connected"
+},
+{
+  "timestamp": "2026-05-03T01:55:34.6284387+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:34.6491794+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-05-03T01:55:53.4176659+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-03T01:55:53.4197696+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network status changed: Disconnected"
+},
+{
+  "timestamp": "2026-05-03T01:55:53.5852188+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:44.5677104+01:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:44.6015418+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2026-05-04T02:37:44.7894447+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 187ms"
+},
+{
+  "timestamp": "2026-05-04T02:37:44.789917+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2026-05-04T02:37:44.7927567+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 2ms"
+},
+{
+  "timestamp": "2026-05-04T02:37:44.7935098+01:00",
+  "level": "Error",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Failed getting games database timestamp from server",
+  "error": {
+    "message": "Unable to proceed with GetAsync request. there is no internet connection",
+    "type": "Curse.Server.Communication.Exceptions.OfflineNetworkException",
+    "stack": [
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.AddonServiceClient+<GetGameDatabaseTimestampAsync>d__32.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.Games.GameRepository+<GetServiceTimestampAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine&)",
+      "Curse.TechService.Games.GameRepository.GetServiceTimestampAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.GetServiceLastUpdatedAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.UpdateCacheAsync(Boolean)",
+      "Curse.TechService.Games.GameRepository.Curse.Domain.Games.IGameRepository.UpdateCacheAsync(Boolean)",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoCheckForGameCacheUpdateAsync>d__23.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation.DoCheckForGameCacheUpdateAsync()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__19.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTasksAsync>d__22.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<DoPeriodicTasksAsync>d__16.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<Timer_Elapsed>d__15.MoveNext()",
+      "System.Timers.Timer.MyTimerCallback(Object)",
+      "System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread,ExecutionContext,ContextCallback,Object)",
+      "System.Threading.TimerQueueTimer.CallCallback(Boolean)",
+      "System.Threading.TimerQueueTimer.Fire(Boolean)",
+      "System.Threading.TimerQueueTimer.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-05-04T02:37:44.797872+01:00",
+  "level": "Warn",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[GameRepository] Service down and we have a cache. Skipping refresh."
+},
+{
+  "timestamp": "2026-05-04T02:37:44.7980751+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2026-05-04T02:37:44.7984632+01:00",
+  "level": "Error",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Failed getting modloaders database timestamp from server",
+  "error": {
+    "message": "Unable to proceed with GetAsync request. there is no internet connection",
+    "type": "Curse.Server.Communication.Exceptions.OfflineNetworkException",
+    "stack": [
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.AddonServiceClient+<GetModloadersDatabaseTimestampAsync>d__28.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.Games.Minecraft.ModLoader.ModLoaderRepository+<GetServiceTimestampAsync>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.ModLoader.ModLoaderRepository.GetServiceTimestampAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.GetServiceLastUpdatedAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.ModLoader.ModLoaderRepository.Curse.Domain.Minecraft.ModLoader.IModLoaderRepository.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<PerformCacheUpdateAsync>d__23.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.PerformCacheUpdateAsync()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<DoPeriodicTasksAsync>d__15.MoveNext()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.DoPeriodicTasksAsync()",
+      "Curse.AppService.MinecraftAppService.<InitPeriodicTasks>b__44_0()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__19.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__20.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTasksAsync>d__22.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<DoPeriodicTasksAsync>d__16.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<Timer_Elapsed>d__15.MoveNext()",
+      "System.Timers.Timer.MyTimerCallback(Object)",
+      "System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread,ExecutionContext,ContextCallback,Object)",
+      "System.Threading.TimerQueueTimer.CallCallback(Boolean)",
+      "System.Threading.TimerQueueTimer.Fire(Boolean)",
+      "System.Threading.TimerQueueTimer.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-05-04T02:37:44.8020255+01:00",
+  "level": "Warn",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Service down and we have a cache. Skipping refresh."
+},
+{
+  "timestamp": "2026-05-04T02:37:44.802258+01:00",
+  "level": "Error",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Failed getting Minecraft Versions database timestamp from server",
+  "error": {
+    "message": "Unable to proceed with GetAsync request. there is no internet connection",
+    "type": "Curse.Server.Communication.Exceptions.OfflineNetworkException",
+    "stack": [
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.AddonServiceClient+<GetMinecraftVersionsDatabaseTimestampAsync>d__30.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.Games.Minecraft.MinecraftVersionDatabase+<GetServiceTimestampAsync>d__5.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.MinecraftVersionDatabase.GetServiceTimestampAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.GetServiceLastUpdatedAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.MinecraftVersionDatabase.Curse.Radium.Minecraft.IMinecraftVersionRepository.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<PerformCacheUpdateAsync>d__23.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.PerformCacheUpdateAsync()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<DoPeriodicTasksAsync>d__15.MoveNext()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.DoPeriodicTasksAsync()",
+      "Curse.AppService.MinecraftAppService.<InitPeriodicTasks>b__44_0()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__19.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__20.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTasksAsync>d__22.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<DoPeriodicTasksAsync>d__16.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<Timer_Elapsed>d__15.MoveNext()",
+      "System.Timers.Timer.MyTimerCallback(Object)",
+      "System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread,ExecutionContext,ContextCallback,Object)",
+      "System.Threading.TimerQueueTimer.CallCallback(Boolean)",
+      "System.Threading.TimerQueueTimer.Fire(Boolean)",
+      "System.Threading.TimerQueueTimer.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-05-04T02:37:44.8035666+01:00",
+  "level": "Warn",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Service down and we have a cache. Skipping refresh."
+},
+{
+  "timestamp": "2026-05-04T02:37:44.8036081+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2026-05-04T02:37:45.2651697+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:45.4151721+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:49.3190071+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:49.4880876+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:49.4944642+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:49.4946173+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network status changed: Reconnecting"
+},
+{
+  "timestamp": "2026-05-04T02:37:49.8140126+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:51.4425364+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-05-04T02:37:51.4426772+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-05-04T02:37:51.7862251+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:51.7919527+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:51.944194+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:51.9797945+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-05-04T02:37:51.9798345+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network status changed: Connected"
+},
+{
+  "timestamp": "2026-05-04T02:37:52.1985389+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:37:52.2173676+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-05-04T02:38:10.4740192+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T02:38:10.4778431+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network status changed: Disconnected"
+},
+{
+  "timestamp": "2026-05-04T02:38:10.6380393+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:36.5559706+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2026-05-04T08:57:36.5577169+01:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:36.7148588+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 158ms"
+},
+{
+  "timestamp": "2026-05-04T08:57:36.7149197+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2026-05-04T08:57:36.7164533+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 1ms"
+},
+{
+  "timestamp": "2026-05-04T08:57:36.7171425+01:00",
+  "level": "Error",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Failed getting games database timestamp from server",
+  "error": {
+    "message": "Unable to proceed with GetAsync request. there is no internet connection",
+    "type": "Curse.Server.Communication.Exceptions.OfflineNetworkException",
+    "stack": [
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.AddonServiceClient+<GetGameDatabaseTimestampAsync>d__32.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.Games.GameRepository+<GetServiceTimestampAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine&)",
+      "Curse.TechService.Games.GameRepository.GetServiceTimestampAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.GetServiceLastUpdatedAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.UpdateCacheAsync(Boolean)",
+      "Curse.TechService.Games.GameRepository.Curse.Domain.Games.IGameRepository.UpdateCacheAsync(Boolean)",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoCheckForGameCacheUpdateAsync>d__23.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation.DoCheckForGameCacheUpdateAsync()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__19.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTasksAsync>d__22.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<DoPeriodicTasksAsync>d__16.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<Timer_Elapsed>d__15.MoveNext()",
+      "System.Timers.Timer.MyTimerCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.TimerQueue.FireNextTimers()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-05-04T08:57:36.7180637+01:00",
+  "level": "Warn",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[GameRepository] Service down and we have a cache. Skipping refresh."
+},
+{
+  "timestamp": "2026-05-04T08:57:36.718097+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2026-05-04T08:57:36.7181902+01:00",
+  "level": "Error",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Failed getting modloaders database timestamp from server",
+  "error": {
+    "message": "Unable to proceed with GetAsync request. there is no internet connection",
+    "type": "Curse.Server.Communication.Exceptions.OfflineNetworkException",
+    "stack": [
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.AddonServiceClient+<GetModloadersDatabaseTimestampAsync>d__28.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.Games.Minecraft.ModLoader.ModLoaderRepository+<GetServiceTimestampAsync>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.ModLoader.ModLoaderRepository.GetServiceTimestampAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.GetServiceLastUpdatedAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.ModLoader.ModLoaderRepository.Curse.Domain.Minecraft.ModLoader.IModLoaderRepository.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<PerformCacheUpdateAsync>d__23.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.PerformCacheUpdateAsync()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<DoPeriodicTasksAsync>d__15.MoveNext()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.DoPeriodicTasksAsync()",
+      "Curse.AppService.MinecraftAppService.<InitPeriodicTasks>b__44_0()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__19.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__20.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTasksAsync>d__22.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<DoPeriodicTasksAsync>d__16.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<Timer_Elapsed>d__15.MoveNext()",
+      "System.Timers.Timer.MyTimerCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.TimerQueue.FireNextTimers()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-05-04T08:57:36.718648+01:00",
+  "level": "Warn",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Service down and we have a cache. Skipping refresh."
+},
+{
+  "timestamp": "2026-05-04T08:57:36.718694+01:00",
+  "level": "Error",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Failed getting Minecraft Versions database timestamp from server",
+  "error": {
+    "message": "Unable to proceed with GetAsync request. there is no internet connection",
+    "type": "Curse.Server.Communication.Exceptions.OfflineNetworkException",
+    "stack": [
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.TechService.AddonServiceClient+<GetMinecraftVersionsDatabaseTimestampAsync>d__30.MoveNext()",
+      "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task)",
+      "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task,ConfigureAwaitOptions)",
+      "System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()",
+      "Curse.Games.Minecraft.MinecraftVersionDatabase+<GetServiceTimestampAsync>d__5.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.MinecraftVersionDatabase.GetServiceTimestampAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.GetServiceLastUpdatedAsync()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.MinecraftVersionDatabase.Curse.Radium.Minecraft.IMinecraftVersionRepository.UpdateCacheAsync(Boolean)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<PerformCacheUpdateAsync>d__23.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.PerformCacheUpdateAsync()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks+<DoPeriodicTasksAsync>d__15.MoveNext()",
+      "Curse.Games.Minecraft.PeriodicTasks.MinecraftPeriodicTasks.DoPeriodicTasksAsync()",
+      "Curse.AppService.MinecraftAppService.<InitPeriodicTasks>b__44_0()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__19.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTaskAsync>d__20.MoveNext()",
+      "Curse.Radium.BasePeriodicTaskImplementation+<DoTasksAsync>d__22.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<DoPeriodicTasksAsync>d__16.MoveNext()",
+      "Curse.Radium.PeriodicTasks+<Timer_Elapsed>d__15.MoveNext()",
+      "System.Timers.Timer.MyTimerCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.TimerQueue.FireNextTimers()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2026-05-04T08:57:36.719001+01:00",
+  "level": "Warn",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Service down and we have a cache. Skipping refresh."
+},
+{
+  "timestamp": "2026-05-04T08:57:36.7190247+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2026-05-04T08:57:37.1726917+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:37.321956+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.2036436+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.2070918+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.2071156+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network status changed: Reconnecting"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.3626918+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.3641051+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.4068294+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.4081681+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.41307+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.4131065+01:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "/home/ethane/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2026-05-04T08:57:41.5595571+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.5788794+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.5788967+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network status changed: Connected"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.7137898+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:41.7327133+01:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2026-05-04T08:57:56.9563233+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2026-05-04T08:57:56.9574686+01:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network status changed: Disconnected"
+}
+]}
