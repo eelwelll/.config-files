@@ -2,7 +2,7 @@
 {
     "position":"left",
     // "layer": "top", // Waybar at top layer
-    "height": 20, // Waybar height (to be removed for auto height)
+    "height": 750, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 2, // Gaps between modules (4px)
     // Choose the order of the modules
@@ -10,14 +10,12 @@
     "margin-left":0,
     "margin-right":0,
     "modules-left": [
-        "custom/end-left",
-        "power-profiles-daemon",
-        "hyprland/workspaces",
-        "custom/spacer",
-        "backlight",
-        "custom/end-right"
+      "custom/power",
+      "pulseaudio",
+      "custom/settingsCog"
     ],
     "modules-center": [
+      "tray",
       "image#albumCover",
       "custom/albumCover",
       "group/sound"
@@ -308,5 +306,10 @@
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate"
 		}
+    },
+    "custom/settingsCog":{
+      "format":" ",
+      "tooltip":false,
+      "on-click":"$HOME/.config/hypr/scripts/openTerminalWithHyprlandConf.sh"
     }
 }
