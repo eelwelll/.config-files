@@ -24,8 +24,7 @@ window#waybar.hidden {
   font-weight: bold; 
   padding: 1 7px;
   background-color:@background-col;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border: 2px solid @background-border;
   margin-bottom:0px;
   margin-top: 1px;
 }
@@ -36,6 +35,7 @@ window#waybar.hidden {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   background-color:@background-col;
+  border: 2px solid @background-border;
   margin-top: 1px;
   margin-left:3px;
   margin-bottom:0px;
@@ -43,10 +43,11 @@ window#waybar.hidden {
 
 .modules-right{
   font-size: 15px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   padding: 2px 0;
   background-color:@background-col;
+  border: 2px solid @background-border;
   margin-top: 1px;
   margin-right: 3px;
   margin-bottom:0px;
@@ -127,7 +128,11 @@ button:hover {
 #media,
 #power-profiles-daemon,
 #soundBar,
+#custom-power,
+#custom-settingsCog,
 #mpd {
+    border: 2px solid @background-border;
+    border-radius:10px;
     padding: 0 5px;
     color: @word-col;
 }
